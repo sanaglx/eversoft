@@ -48,12 +48,6 @@ p{margin:0 0 18px;}
 .btn-orange{background-color:#ff4e00;}
 	.btn-orange:hover{background-color:#fb804a;}
 
-
-	
-	
-	
-	
-	
 	
 #popupform{display:none;}
 #popupform .error {color:#c00000;}
@@ -62,18 +56,7 @@ p{margin:0 0 18px;}
 #popupform input[type="text"],#popupform input[type="email"]{padding:10px 10px 9px;border-bottom:1px solid #dedfdd;border-right:1px solid #dedfdd;border-top:1px solid #9f9f9f;border-left:1px solid #9f9f9f;color:#252122;text-align:center;font-size:13px;border-radius:0;width:260px;margin:0 auto 12px;display:block;}
 #popupform input[type="text"]:focus,#popupform input[type="email"]:focus{text-align:left;}
 #popupform .btn{display:block;margin:32px auto 0;}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 /*шапка*/
 .logo{}
 	.logo img{margin:16px 0 0;max-width:100%;}
@@ -95,8 +78,15 @@ p{margin:0 0 18px;}
 .contant{margin:0 0 35px;}
 /*главная страница*/
 .index-menu{}
-	.index-menu a{display:table;width:100%;height:108px;color:#404040;text-decoration:none;text-align:center;margin:0 0 35px;}
-	.index-menu a:hover{color:#fff;}
+        .index-menu .img-blok .col-md-4, .index-menu .img-blok .col-sm-6{
+            margin-right: -15px;
+            width: 34.18%;
+        }
+        .index-menu .img-blok .col-sm-6{
+            
+        }
+	.index-menu a{display:table;width:100%;height:205px;color:#fff;text-decoration:none;text-align:center;margin:0 0 35px;}/*#404040*/
+	.index-menu a:hover{color:#fff84e;}/*#fff*/
 		.index-menu .table-cell{display:table-cell;vertical-align:middle;}
 			.index-menu .big{font-size:36px;font-family:'PlayBold';line-height:36px;text-transform:uppercase;letter-spacing:0.01em;}
 			.index-menu .support-1c .big{font-size:30px;line-height:30px;}
@@ -107,7 +97,19 @@ p{margin:0 0 18px;}
 	.index-menu a.site:hover{background:url(img/index-menu-site.jpg) no-repeat;background-size:cover;}
 	.index-menu a.training-1c:hover{background:url(img/index-menu-training-1c.jpg) no-repeat;background-size:cover;}
 	.index-menu a.support-1c:hover{background:url(img/index-menu-support-1c.jpg) no-repeat;background-size:cover;}
-.index-projects{background-color:#f8f7f7;}/*проекты*/
+        
+        .fon-img{background:url(img/shpk/s1a.png) no-repeat;background-size:cover;}
+        .fon-img1{background:url(img/shpk/s1k.png) no-repeat;background-size:cover;}
+        .fon-img2{background:url(img/shpk/s1n.png) no-repeat;background-size:cover;}
+        .fon-img3{background:url(img/shpk/s1o.png) no-repeat;background-size:cover;}
+        .fon-img4{background:url(img/shpk/s1s.png) no-repeat;background-size:cover;}
+        .fon-img5{background:url(img/shpk/site.png) no-repeat;background-size:cover;}
+        .xx{
+                margin:  7.5px 0px;;
+                 height: 205px;
+        }
+        
+.index-projects{background-color:#e8f2f7;margin-top: 9px;}/*проекты   #f8f7f7*/
 	.index-projects a{display:block;padding:42px 0 33px;color:#231f20;text-decoration:none;}
 	.index-projects a:hover{background:url(img/bg-index-project-a.png) repeat;}
 		.index-projects .table{display:table;margin:0 0 19px;}
@@ -137,7 +139,7 @@ p{margin:0 0 18px;}
 	.reviews .btn-orange{margin:0 auto;}
 
 footer{}
-.footer-menu{background-color:#f8f7f7;}
+.footer-menu{background-color:#e8f2f7;}/*#f8f7f7*/
 	.footer-menu .row{position:relative;padding:46px 0 23px;}
 	.footer-menu .line{height:58px;width:13px;background-color:#00afe5;border-right:4px solid #007599;position:absolute;top:0;left:15px;}
 	.footer-menu .name{color:#00afe5;text-transform:uppercase;font-size:13px;font-family:'MullerBold';margin:0 0 19px 17px;}
