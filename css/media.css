@@ -4,8 +4,8 @@
     .header-e-mail{text-align:center;}
     .header-btn a{margin:10px auto 0;float:none;}
     .navbar-nav{margin:0 -15px;}
-    .index-projects a{border-bottom:9px solid #f8f7f7;}
-    .index-projects a:hover{border-bottom:9px solid #00afe5;}
+    .index-projects a.a_kl{}
+    .index-projects a.a_kl:hover{border-bottom:9px solid #00afe5;}
     .reviews .carousel-inner{width:100%;padding:0 45px;}
     .reviews .logo{display:none;}
     .reviews .text{width:100%;}
@@ -21,14 +21,14 @@
 @media only screen and (min-width : 768px){
     .header-partner{margin:29px 0 0 0;}
     .header-phone{text-align:right;margin:10px 0 0 0;}
-    .header-e-mail{text-align:right;}
+    .header-e-mail{      text-align: right;    position: relative;    width: 328px;    left: -166px;    background: url(img/email.png) no-repeat 5px -2px;    padding-left: 10px;}
     .header-btn a{float:right;margin:13px 0 0;}
     .navbar-nav{margin:0;}
     .navbar-nav > li > a{    padding: 20px 16.2px 18px;  font-size: 0.9em;}
     .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 22px 18px 17px;}
     #navbarCollapse{display:block;}
     .index-projects a{border-bottom:none;}
-    .index-projects a:hover{position:absolute;border-bottom:9px solid #00afe5;left:15px;right:15px;}
+    .index-projects  a.a_kl:hover{position:absolute;border-bottom:9px solid #00afe5;left:15px;right:15px;height: 226px;}
     .reviews .carousel-inner{width:575px;margin:0 80px;padding:0;}
     .reviews .logo{width:165px;display:block;}
     .reviews .text{width:375px;}
@@ -52,6 +52,9 @@
     .reviews .carousel-inner{width:720px;}
     .reviews .logo{width:230px;}
     .reviews .text{width:420px;}
+    .index-projects .carousel-inner{}
+    //.index-projects .logo{width:230px;}
+    //.index-projects .text{width:420px;}
     .setup-modification .our-advantages .bl-sm-bottom{margin:0;}
     .setup-modification .our-advantages .bl-md-bottom{margin:80px 0 0;}
     .setup-modification .our-advantages .bg{height:152px;}
@@ -65,9 +68,9 @@
 
 }
 @media only screen and (min-width : 1200px){
-    .header-phone{font-size:26px;text-align:right;}
-    .navbar-nav > li > a{padding:20px 51.2px 18px ;}
-    .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 22px 18px 17px;}
+    .header-phone{font-size:26px;text-align:right; background: url(img/telf.png) no-repeat 9px -2px;}
+    .navbar-nav > li > a{padding:20px 51px 18px ;}
+    .navbar-nav .index{border-left: 0px solid #00afe5;padding: 20px 22px 18px 25px;background: #d3d3d3 !important;}
     .setup-modification .our-advantages .bg{height:190px;}
     .setup-modification .our-advantages .line{width:102px;height:72px;right:-50px;}
     .for-anybody .bl,.for-anybody .bl.last-sm, .for-anybody .bl.first-sm{float:left;margin:0 82px 25px 0;}
