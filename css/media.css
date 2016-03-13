@@ -20,9 +20,9 @@
 }
 @media only screen and (min-width : 768px){
     .header-partner{margin:29px 0 0 0;}
-    .header-phone{text-align:right;margin:10px 0 0 0;}
-    .header-e-mail{      text-align: right;    position: relative;    width: 328px;    left: -166px;    background: url(img/email.png) no-repeat 5px -2px;    padding-left: 10px;}
-    .header-btn a{float:right;margin:13px 0 0;}
+    .header-phone{text-align:right;margin:24px 0 0 0;}
+    .header-e-mail{      text-align: right;    position: relative;    width: 100%;  margin-bottom:10px  ;    background: url(img/email.png) no-repeat 5px -2px;    padding-left: 10px;top: 16px;}
+    .header-btn a{float:right;margin: 24px 0 0 0;}
     .navbar-nav{margin:0;}
     .navbar-nav > li > a{    padding: 20px 16.2px 18px;  font-size: 0.9em;}
     .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 22px 18px 17px;}
@@ -46,9 +46,10 @@
 
 }
 @media only screen and (min-width : 992px){
-    .header-phone{font-size:24px;text-align:left;margin:38px 0 0;}
+    .header-phone{font-size:24px;text-align:left;margin:50px 0 0;}
     .navbar-nav > li > a{padding:20px 30.5px 18px; font-size: 1em;}
     .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 24px 18px 19px;}
+	 .header-e-mail{      text-align: right;    position: relative; width: 282px; left: -121px; margin: 0;   background: url(img/email.png) no-repeat 5px -2px;    padding-left: 10px;top: 16px;}
     .reviews .carousel-inner{width:720px;}
     .reviews .logo{width:230px;}
     .reviews .text{width:420px;}
@@ -68,9 +69,9 @@
 
 }
 @media only screen and (min-width : 1200px){
-    .header-phone{font-size:26px;text-align:right; background: url(img/telf.png) no-repeat 9px -2px;}
+    .header-phone{font-size:26px;text-align:right; background: url(img/telf.png) no-repeat 9px -2px;margin: 50px 0px 0px 4px;}
     .navbar-nav > li > a{padding:20px 51px 18px ;}
-    .navbar-nav .index{border-left: 0px solid #00afe5;padding: 20px 22px 18px 25px;background: #d3d3d3 !important;}
+    .navbar-nav .index{border-left: 0px solid #00afe5;padding: 20px 22px 18px 25px;/*background: #d3d3d3 !important*/;}
     .setup-modification .our-advantages .bg{height:190px;}
     .setup-modification .our-advantages .line{width:102px;height:72px;right:-50px;}
     .for-anybody .bl,.for-anybody .bl.last-sm, .for-anybody .bl.first-sm{float:left;margin:0 82px 25px 0;}

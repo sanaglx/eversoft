@@ -91,14 +91,21 @@ p{margin:0 0 18px;}
 			.index-menu .big{font-size:36px;font-family:'PlayBold';line-height:36px;text-transform:uppercase;letter-spacing:0.01em;}
 			.index-menu .support-1c .big{font-size:30px;line-height:30px;}
 			.index-menu .small{font-size:14px;}
-	.index-menu a.buy-1c:hover{background:url(img/index-menu-buy-1c.jpg) no-repeat;background-size:cover;}
+	/*.index-menu a.buy-1c:hover{background:url(img/index-menu-buy-1c.jpg) no-repeat;background-size:cover;}
 	.index-menu a.rent-1c:hover{background:url(img/index-menu-rent-1c.jpg) no-repeat;background-size:cover;}
 	.index-menu a.setting-1c:hover{background:url(img/index-menu-setting-1c.jpg) no-repeat;background-size:cover;}
 	.index-menu a.site:hover{background:url(img/index-menu-site.jpg) no-repeat;background-size:cover;}
 	.index-menu a.training-1c:hover{background:url(img/index-menu-training-1c.jpg) no-repeat;background-size:cover;}
 	.index-menu a.support-1c:hover{background:url(img/index-menu-support-1c.jpg) no-repeat;background-size:cover;}
+	*/
+	.index-menu a.buy-1c:hover{background:url(img/shpk/fon1.png) no-repeat;background-size:cover;}
+	.index-menu a.rent-1c:hover{background:url(img/shpk/fon1.png) no-repeat;background-size:cover;}
+	.index-menu a.setting-1c:hover{background:url(img/shpk/fon1.png) no-repeat;background-size:cover;}
+	.index-menu a.site:hover{background:url(img/shpk/fon1.png) no-repeat;background-size:cover;}
+	.index-menu a.training-1c:hover{background:url(img/shpk/fon1.png) no-repeat;background-size:cover;}
+	.index-menu a.support-1c:hover{background:url(img/shpk/fon1.png) no-repeat;background-size:cover;}
         
-        .fon-img{background:url(img/shpk/s1a.png) no-repeat;background-size:cover;}
+        .fon-img{background:url(img/shpk/s1a.jpg) no-repeat;background-size:cover;}
         .fon-img1{background:url(img/shpk/s1k.png) no-repeat;background-size:cover;}
         .fon-img2{background:url(img/shpk/s1n.png) no-repeat;background-size:cover;}
         .fon-img3{background:url(img/shpk/s1o.png) no-repeat;background-size:cover;}
@@ -125,7 +132,7 @@ p{margin:0 0 18px;}
 			.index-projects .table-cell{display:table-cell;width:100%;vertical-align:bottom;text-align:center;height:55px;position:relative;}
 				.index-projects img{max-width:100%;max-height:100%;}
 				.index-projects a:hover img{opacity:0.25}
-				.index-projects a:hover .hover{display:block;width:44px;height:44px;margin:0;background:url(img/bg-index-project-hover.png) no-repeat;position:absolute;top:3px;left:45%;}
+				.index-projects a:hover .hover{display:block;width:44px;height:44px;margin:0;/*background:url(img/bg-index-project-hover.png) no-repeat*/;position:absolute;top:3px;left:45%;}
 		.index-projects .text{text-align:center;display:block;font-family:'PlayBold';font-size:12px;line-height:14px;}
 .btn-projects{margin:30px auto 16px;}
 
