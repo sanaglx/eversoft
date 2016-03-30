@@ -21,4 +21,4 @@ if(!empty($errors)){
     }
 }
 echo json_encode($form_data);
-?>
+

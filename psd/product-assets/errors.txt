@@ -1,0 +1,5 @@
+[Wed Mar 30 2016 13:16:27 GMT+0300 (RTZ 2 (зима))] layer "© ООО «ЭвриСофт», 2014—2016 +7 (3952) 758-198, it@evrysoft.ru": Unsupported extension: ru
+[Wed Mar 30 2016 13:16:27 GMT+0300 (RTZ 2 (зима))] layer "+7 (3952) 758-198 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Wed Mar 30 2016 13:16:27 GMT+0300 (RTZ 2 (зима))] layer "it@evrysoft.ru": Unsupported extension: ru
+[Wed Mar 30 2016 13:16:27 GMT+0300 (RTZ 2 (зима))] layer "+7 (3952) 758-198 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Wed Mar 30 2016 13:16:27 GMT+0300 (RTZ 2 (зима))] layer "it@evrysoft.ru": Unsupported extension: ru

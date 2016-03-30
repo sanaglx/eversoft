@@ -65,7 +65,18 @@ p{margin:0 0 18px;}
 .header-phone{font-family: 'MullerLight';line-height:35px;color:#5c595a;}
 
 /*верхнее меню*/
-.top-menu{background:url(img/bg-top-menu.png) repeat-x;font-size:15px;line-height:15px;font-family:'MullerBold';text-transform:uppercase;}
+.top-menu .fixed{
+    
+    background: rgb(248,247,247);
+background: -moz-linear-gradient(top,  rgba(248,247,247,1) 0%, rgba(244,243,243,1) 37%, rgba(236,235,235,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(248,247,247,1) 0%,rgba(244,243,243,1) 37%,rgba(236,235,235,1) 100%);
+background: linear-gradient(to bottom,  rgba(248,247,247,1) 0%,rgba(244,243,243,1) 37%,rgba(236,235,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f7f7', endColorstr='#ecebeb',GradientType=0 );
+
+}
+.top-menu .navbar-collapse{  width: 1145px; margin: 0 auto;}
+.top-menu .img-ress{ margin-right: 5px; margin-left: -5px;}
+.top-menu{background:url(img/bg-top-menu.png) repeat-x;font-size:15px;line-height:15px;font-family:'MullerBold';text-transform:uppercase;height: 63px;}
 	.navbar-default{border:0;background:none;}
 	.navbar{min-height:58px;margin-bottom: 10px;}
 	.navbar-default .navbar-nav > li > a{color:#231f20;background:url(img/bg-top-line.png) 100% 0 no-repeat;}
@@ -74,6 +85,55 @@ p{margin:0 0 18px;}
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{background-color:#00afe5;color:#fff;}
 .navbar-toggle{margin:12px 15px 12px 0;}
 .navbar-nav{border:0;}
+
+.polosa{
+    display: none;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #444;
+    font-family: 'MullerRegular';
+}
+.polosa .s-right{
+    float: right;
+   // background: url(img/telfx.png) no-repeat -6px -3px;
+    padding: 1px 0px 0px ;
+}
+.polosa .cent{
+    width: 1145px;
+    margin: 0 auto;
+}
+.polosa .tlf{
+    background: url(img/telfx.png) no-repeat 4px 1px;
+    padding: 4px 26px; 
+    font-size: 1.1em;
+}
+.polosa .eml{
+    background: url(img/emlx.png) no-repeat 4px 1px;
+    padding: 4px 26px;   
+}
+
+.polosa .btn1{
+    font-family: 'MullerBold';
+    font-size: 11px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 8px 10px 5px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 0;
+    margin-right: 4px;
+    text-shadow: 1px 1px 1px #555;
+}
+.p-show{
+    height: 33px;
+    background: #f3f3f3;
+    margin-left: -15px;
+    margin-right: -15px;
+    box-shadow: 0px -2px 9px #ccc;
+    display: block;
+}
 
 .contant{margin:0 0 35px;}
 /*главная страница*/
@@ -108,17 +168,18 @@ p{margin:0 0 18px;}
         .fon-img{background:url(img/shpk/s1a.jpg) no-repeat;background-size:cover;}
         .fon-img1{background:url(img/shpk/s1k.png) no-repeat;background-size:cover;}
         .fon-img2{background:url(img/shpk/s1n.png) no-repeat;background-size:cover;}
-        .fon-img3{background:url(img/shpk/s1o.png) no-repeat;background-size:cover;}
-        .fon-img4{background:url(img/shpk/s1s.png) no-repeat;background-size:cover;}
-        .fon-img5{background:url(img/shpk/site.png) no-repeat;background-size:cover;}
+        .fon-img3{background:url(img/shpk/site.png) no-repeat;background-size:cover;}
+        .fon-img4{background:url(img/shpk/s1o.png) no-repeat;background-size:cover;}
+        .fon-img5{background:url(img/shpk/s1s.png) no-repeat;background-size:cover;}
         .xx{
                 margin:  7.5px 0px;;
                  height: 205px;
         }
         
 .index-projects{background-color:#e8f2f7;margin-top: 9px;}/*проекты   #f8f7f7*/
-	.o_nas	{    text-align: center;    font-size: 1.2em;    font-weight: 600;    padding: 40px 0 20px;    text-transform: uppercase;}
-	.projx	{    position: absolute;    padding-top: 25px;    left: 50%;    margin-left: -73px;}
+	.o_nas	{    text-align: center; font-size: 1.3em;  text-shadow: 0px 0px 1px #ccc;    font-weight: 600;    padding: 40px 0 20px;    text-transform: uppercase;}
+	//.projx	{    position: absolute;    padding-top: 25px;    left: 50%;    margin-left: -73px;}
+	.projx	{padding: 15px 0 5px; font-size: 1.3em; text-shadow: 0px 0px 1px #ccc;}
         .index-projects .carousel{}
 	.index-projects .carousel-control{width:16px;height:65px;background:url(img/left_r.png) no-repeat;position:absolute;top:92px;right:0;bottom:0;margin:auto 0;}
 	.index-projects .carousel-control.left{background-position:-51px 0;margin-left: -19px;}
@@ -155,13 +216,13 @@ p{margin:0 0 18px;}
 	.reviews .btn-orange{margin:0 auto;}
 
 footer{}
-.footer-menu{background-color:#e8f2f7;}/*#f8f7f7*/
+.footer-menu{background-color:#ccf1fd;}/*#f8f7f7*/
 	.footer-menu .row{position:relative;padding:46px 0 23px;}
 	.footer-menu .line{height:58px;width:13px;/*background-color:#00afe5;border-right:4px solid #007599;*/ position:absolute;top:0;left:15px;}
 	.footer-menu .name{color:#00afe5;text-transform:uppercase;font-size:13px;font-family:'MullerBold';margin:0 0 19px 17px;}
 	.footer-menu ul{margin:0 0 15px 17px;padding:0;}
 		.footer-menu li{margin:0;list-style:none;}
-			.footer-menu a{color:#000;text-decoration:none;}
+			.footer-menu a{color: #000;text-decoration: none; background: url(img/p_menu.png) no-repeat; padding: 0 0 0 16px;line-height: 2;}
 			.footer-menu a:hover{text-decoration:underline;}
 .footer-copy{background-color:#e6e7e8;padding:20px 0;}
 	.footer-copy a{color:#000;text-decoration:underline;}
