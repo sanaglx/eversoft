@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2016-03-31 15:03">
+<shop>
+<name>RIKO</name>
+<company>Riko</company>
+<url>http://riko-original.ru/</url>
+<phone>8(499)181-61-38</phone>
+<platform>Yandex.YML for OpenCart (ocStore)</platform>
+<version>1.8.1</version>
+<currencies>
+<currency id="RUB" rate="1" />
+</currencies>
+<categories>
+<category id="59" >
+Товары RIKO</category>
+<category id="61" parentId="59" >
+Детские коляски 3 в 1</category>
+</categories>
+<offers>
+<offer id="96" available="true">
+<url>
+http://riko-original.ru/tovar-riko/riko-niki-2v1/
+</url>
+<price>29500.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>61</categoryId>
+<delivery>true</delivery>
+<name>Детская коляска Riko Niki 2 в 1</name>
+<vendor>Riko</vendor>
+<vendorCode>Детская коляска Riko Niki 2 в 1</vendorCode>
+<description>
+ХАРАКТЕРИСТИКИ
+легкий алюминиевый каркас,
+инновационная система подачи управляется одной рукой,
+большая удобная люлька с регулировкой спинки,
+система вентиляции люльки,
+внешняя регулировка спинки в люльки,
+сиденье в прогулочной коляски с возможностью установки передом и задом к направлению езды,
+регулировка подножки,
+4-ступенчатая регулировка спинки сидения, включая положение полностью плоской,
+дополнительный матрас на сиденье,
+чехол на ножки ребенка,
+дополнительный ремень между ножек крепится на ограждение,
+5-точечные ремни безопасности,
+ручка коляски отделана эко-кожей
+регулировка высоты ручки,
+большая корзина для покупок с практичной крышкой,
+легкий доступ в корзину,
+большая практичная сумка крепится на ручке коляски,
+дождевик
+</description>
+</offer>
+</offers>
+</shop></yml_catalog>

@@ -1,1 +1,14 @@
-/psd/ЭвриСофт_верстка_15032016/ЭвриСофт_верстка_15032016/ВЕРСТКА/nbproject/private/
+psd/*
+/psd/*
+/psd/**
+.gitignore
+*.docx
+*.doc
+*.rtf.new
+*.rtf
+*.psd
+/evrysoft/*.docx
+/evrysoft/*.doc
+/evrysoft/*.rtf.new
+/evrysoft/*.rtf
+/evrysoft/*.psd

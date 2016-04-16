@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.04.2016, 8:25:05
+    Author     : ╨Р╨╗╨╡╨║╤Б╨░╨╜╨┤╤А
+*/
+.n-and-d {
+  color: #fff;
+  text-transform: uppercase; }
+  .n-and-d .h2-2 {
+    color: #fff;
+    background: #00afe5;
+    font-family: "MullerBold", "arial";
+    font-size: 2.6em;
+    padding: 8px 15px 0;
+    text-align: center;
+    line-height: 1.2em;
+    margin-bottom: 25px; }
+  .n-and-d .kvdrx {
+    color: #FFF;
+    font-size: 3em;
+    font-family: "MullerBold", "arial";
+    background: url(img/kvadr.png) no-repeat;
+    padding: 17px 50px 10px 9px;
+    position: relative;
+    top: 17px;
+    left: 20px;
+    float: left; }
+  .n-and-d .kvdrx1 {
+    line-height: 1.4;
+    display: table-cell;
+    vertical-align: middle; }
+  .n-and-d .box-5 {
+    border: 3px solid #00afe5;
+    font-family: "MullerBold", "arial";
+    text-align: left;
+    color: #444;
+    min-height: 85px;
+    position: relative;
+    font-size: 1.17em;
+    padding: 0px 20px 0 0;
+    display: table;
+    width: 100%;
+    margin-bottom: 25px; }
+
+/*# sourceMappingURL=main.css.map */

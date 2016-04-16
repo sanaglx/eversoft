@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.04.2016, 8:25:05
+    Author     : Александр
+*/
+$bkgblue:#00afe5;
+$fontbold: 'MullerBold','arial';
+
+.n-and-d{
+    color:#fff;
+    text-transform: uppercase;
+
+
+    .h2-2{
+        color:#fff;
+        background: $bkgblue; 
+        font-family: $fontbold;
+        font-size: 2.6em;
+        padding: 8px 15px 0;
+        text-align: center;
+        line-height: 1.2em;
+            margin-bottom: 25px;
+    }
+    .kvdrx{
+        color: #FFF;
+        font-size: 3em;
+        font-family: $fontbold;
+        background: url(img/kvadr.png) no-repeat;
+        padding: 17px 50px 10px 9px;
+        position: relative;
+        top: 17px;
+        left: 20px;
+        float: left;
+    }
+    .kvdrx1{
+        line-height: 1.4;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .box-5{
+        border:3px solid $bkgblue;
+         font-family: $fontbold;
+        text-align: left;
+        color: #444;
+        min-height: 85px;
+        position: relative;
+        font-size: 1.17em;
+        padding: 0px 20px 0 0;
+        display: table;
+        width: 100%;
+            margin-bottom: 25px;
+    }
+}

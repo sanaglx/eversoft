@@ -1,9 +1,10 @@
 @media only screen and (min-width : 320px){
+    .form-cntr-end .tarea-end{width: 100% !important;    min-height: 120px !important;}
     .polosa .cent{    width: 300px;    margin: 0 auto;}
     .logo{text-align: center;}
    // .header-partner{margin:29px 0 0 15px; text-align: center;background: url(img/s-logo.png) no-repeat 34% 0;}
     .header-phone{font-size:26px;text-align:center;margin:10px 0 0;}
-     .header-e-mail{text-align: center;  margin-top: 25px;} 
+     .header-e-mail{text-align: center;  margin-top: 25px;    z-index: 10;} 
   //  .header-e-mail{text-align:center;}
     .header-btn a{margin:10px auto 0;float:none;text-shadow: 1px 1px 1px #555;}
     .navbar-nav{margin:0 -15px;}
@@ -14,7 +15,7 @@
     .reviews .text{width:100%;}
     .setup-modification .our-advantages .bg{height:190px;background-position:50% 50%;}
     .for-anybody .bl{margin:0 auto 25px;width:162px;}
-    .industry-solutions .img{float:left;margin:0 10px 10px;max-width:70px}
+    .industry-solutions .img{float:left;margin:0 10px 10px;/*max-width:70px*/}
      .index-menu .img-blok .col-md-4, .index-menu .img-blok .col-sm-6{width: 100%;}
 
 }
@@ -22,17 +23,20 @@
 
 }
 @media only screen and (min-width : 768px){
+    .tabl{width:106%;}
+    .form-cntr-end .tarea-end{width: 90% !important;    min-height: 120px !important;}
+    .form-contr{margin: 15px 33px 0 0 ;}
     .polosa .cent{    width: 697px;    margin: 0 auto;}
     .logo{text-align: left;}
     .header-partner{margin:31px 0 0 0;background: url(img/s-logo.png) no-repeat 0 0; text-align: left; }
-    .header-phone{    font-size: 23px;    text-align: left;    background: url(img/telf.png) no-repeat -7px 3px;    margin: 2px 0px;
+    .header-phone{    font-size: 23px;    text-align: left;    background: url(img/telf.png) no-repeat 1px 7px;    margin: 2px 0px;
     padding: 0 0 0 26px;}
   // .header-e-mail{      text-align: right;    position: relative;    width: 100%;  margin-bottom:10px  ;    background: url(img/email.png) no-repeat 5px -2px;    padding-left: 10px;top: 16px;}
-  .header-e-mail{    text-align: left;    background: url(img/email.png) no-repeat -3px -2px;    margin-top: 15px;    padding-left: 27px; }  
+  .header-e-mail{    text-align: left;    background: url(img/email.png) no-repeat 3px 0px;    margin-top: 15px;    padding-left: 27px;    z-index: 10; }  
   .header-btn a{    font-size: 1em;    text-shadow: 1px 1px 1px #555;    float: left;    margin: 0;}
     .top-menu .navbar-collapse{  width: 720px; margin: 0 auto;}
     .navbar-nav{margin:0;}
-    .navbar-nav > li > a{    padding: 20px 13.7px 18px;  font-size: 0.9em;}
+    .navbar-nav > li > a{    padding: 20px 12px 18px;  font-size: 0.9em;}
     .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 22px 18px 17px;}
     #navbarCollapse{display:block;}
     .index-projects a{border-bottom:none;}
@@ -48,21 +52,23 @@
     .for-anybody .bl{float:left;margin:0 117px 25px 0;}
     .for-anybody .bl.first-sm{margin-left:134px;}
     .for-anybody .bl.last-sm{margin:0;}
-    .industry-solutions .img{margin:0 45px 15px 0;max-width:169px;}
+    .industry-solutions .img{margin:0 45px 15px 0;max-width:233px;}
     .index-menu .img-blok .col-md-4, .index-menu .img-blok .col-sm-6{width: 50%;}
 
 
 }
 @media only screen and (min-width : 992px){
+    .form-contr{margin: 15px 33px 0 0;}
+    .form-cntr-end .tarea-end{width: 63% !important;    min-height: 120px !important;}
     //.header-phone{font-size:21px;text-align:center; background: url(img/telf.png) no-repeat -6px 0px; /*margin: 50px 0px 0px 4px;*/padding-left: 15px;}
-    .header-phone{ font-size: 21px; text-align: center; background: url(img/telf.png) no-repeat -6px 4px; margin: 27px 0px 0px 4px; padding-left: 15px;}
+    .header-phone{ font-size: 21px; text-align: center; background: url(img/telf.png) no-repeat 3px 8px; margin: 27px 0px 0px 4px; padding-left: 15px;}
     .top-menu .navbar-collapse{  width: 941px; margin: 0 auto;}
     .polosa .cent{    width: 937px;    margin: 0 auto;}
-    .navbar-nav > li > a{padding:20px 28.5px 18px; font-size: 1em;}
+    .navbar-nav > li > a{padding:20px 27px 18px; font-size: 1em;}
     .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 24px 18px 19px;}
     //.header-btn a{float: right;margin: 17px -15px 0 0;font-size: 0.9em;width: 145px;}
     .header-btn a{ float: right;    margin: 26px -15px 0 0; font-size:0.9em;  width: 145px;  text-shadow: 1px 1px 1px #555;}
-    .header-e-mail{text-align: right;background: url(img/email.png) no-repeat 27% -2px;margin-top: 0;position: relative; top: 16px;}
+    .header-e-mail{text-align: right;background: url(img/email.png) no-repeat 15.5% 0px;margin-top: 0;position: relative; top: 16px;    z-index: 10;}
     .reviews .carousel-inner{width:720px;}
     .reviews .logo{width:230px;}
     .reviews .text{width:420px;}
@@ -82,12 +88,14 @@
 
 }
 @media only screen and (min-width : 1200px){
+    .form-contr{margin: 0px 12px;}
+    .form-cntr-end .tarea-end{width: 100% !important;    min-height: 36px !important;}
     .polosa .cent{    width: 1145px;    margin: 0 auto;}
-    .header-phone{ font-size: 26px; text-align: right; background: url(img/telf.png) no-repeat 34px 4px; margin: 27px 0px 0px 4px; padding-left: 15px;}
+    .header-phone{ font-size: 26px; text-align: right; background: url(img/telf.png) no-repeat 44px 8px; margin: 27px 0px 0px 4px; padding-left: 15px;}
     .top-menu .navbar-collapse{  width: 1140px; margin: 0 auto;}
-    .navbar-nav > li > a{    padding: 20px 46px 18px;}
+    .navbar-nav > li > a{    padding: 20px 45px 18px;}
      .header-btn a{ float: right;    margin: 26px -15px 0 0; font-size: 1em;  width: 161px;  text-shadow: 1px 1px 1px #555;}
-     .header-e-mail{text-align: right;background: url(img/email.png) no-repeat 50% -2px; position: relative; top: 16px;}
+     .header-e-mail{text-align: right;background: url(img/email.png) no-repeat 43.5% 0px; position: relative; top: 16px;    z-index: 10;}
     .navbar-nav .index{border-left: 0px solid #00afe5;    padding: 20px 14px 18px 25px;/*background: #d3d3d3 !important*/;}
     .setup-modification .our-advantages .bg{height:190px;}
     .setup-modification .our-advantages .line{width:102px;height:72px;right:-50px;}
