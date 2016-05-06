@@ -51,16 +51,24 @@ p{margin:0 0 18px;}
 
 #popupform{display:none;}
 #popupform .error {color:#c00000;}
-#popupform h2{color:#000;margin:0 0 11px;font-size:20px;line-height:20px;text-align:center;text-transform:uppercase;font-family: 'MullerRegular';}
+#popupform h2{color:#000;margin:5px 0 11px;font-size:20px;line-height:20px;text-align:center;text-transform:uppercase;font-family: 'MullerRegular';}
 #popupform .comment{text-align:center;margin:0 0 22px;text-align:center;}
 #popupform input[type="text"],#popupform input[type="email"]{padding:10px 10px 9px;border-bottom:1px solid #dedfdd;border-right:1px solid #dedfdd;border-top:1px solid #9f9f9f;border-left:1px solid #9f9f9f;color:#252122;text-align:center;font-size:13px;border-radius:0;width:260px;margin:0 auto 12px;display:block;}
 #popupform input[type="text"]:focus,#popupform input[type="email"]:focus{text-align:left;}
 #popupform .btn{display:block;margin:32px auto 0;}
 
+#popupform_ar{display:none;}
+#popupform_ar .error {color:#c00000;}
+#popupform_ar h2{color:#000;margin:5px 0 11px;font-size:20px;line-height:20px;text-align:center;text-transform:uppercase;font-family: 'MullerRegular';}
+#popupform_ar .comment{text-align:center;margin:0 0 22px;text-align:center;}
+#popupform_ar input[type="text"],#popupform_ar input[type="email"]{padding:10px 10px 9px;border-bottom:1px solid #dedfdd;border-right:1px solid #dedfdd;border-top:1px solid #9f9f9f;border-left:1px solid #9f9f9f;color:#252122;text-align:center;font-size:13px;border-radius:0;width:260px;margin:0 auto 12px;display:block;}
+#popupform_ar input[type="text"]:focus,#popupform_ar input[type="email"]:focus{text-align:left;}
+#popupform_ar .btn{display:block;margin:32px auto 0;}
+
 /*шапка*/
 .logo{}
 .logo img{margin:16px 0 0;max-width:100%;}
-.header-e-mail a{font-size:14px;color:#5c595a;text-decoration:none;}
+.header-e-mail a{font-size:14px;/*color:#5c595a*/;text-decoration:underline;}
 .header-partner{    background: url(img/s-logo.png) no-repeat 0 0;  padding: 4px 15px 0 76px; font-size: 14px;  color: #231f20;  display: block;  width: 288px;  margin: 29px auto;}
 .header-phone{font-family: 'MullerLight';line-height:35px;color:#5c595a;}
 
@@ -75,7 +83,7 @@ p{margin:0 0 18px;}
 
 }
 .top-menu .navbar-collapse{  width: 1145px; margin: 0 auto;}
-.top-menu .img-ress{ margin-right: 5px; margin-left: -5px;}
+.top-menu .img-ress{ margin-right: 5px; margin-left: -5px;     margin-top: 0px;    margin-bottom: 0px;}
 .top-menu{background:url(img/bg-top-menu.png) repeat-x;font-size:15px;line-height:15px;font-family:'MullerBold';text-transform:uppercase;height: 63px;}
 .navbar-default{border:0;background:none;}
 .navbar{min-height:58px;margin-bottom: 10px;}
@@ -95,7 +103,7 @@ p{margin:0 0 18px;}
 }
 .polosa .s-right{
     float: right;
-    // background: url(img/telfx.png) no-repeat -6px -3px;
+    /* background: url(img/telfx.png) no-repeat -6px -3px;*/
     padding: 1px 0px 0px ;
 }
 .polosa .cent{
@@ -178,7 +186,7 @@ p{margin:0 0 18px;}
 
 .index-projects{background-color:#e8f2f7;margin-top: 9px;}/*проекты   #f8f7f7*/
 .o_nas	{    text-align: center; font-size: 1.3em;  text-shadow: 0px 0px 1px #ccc;    font-weight: 600;    padding: 40px 0 20px;    text-transform: uppercase;}
-//.projx	{    position: absolute;    padding-top: 25px;    left: 50%;    margin-left: -73px;}
+/*.projx	{    position: absolute;    padding-top: 25px;    left: 50%;    margin-left: -73px;}*/
 .projx	{padding: 15px 0 5px; font-size: 1.3em; text-shadow: 0px 0px 1px #ccc;}
 .index-projects .carousel{}
 .index-projects .carousel-control{width:16px;height:65px;background:url(img/left_r.png) no-repeat;position:absolute;top:92px;right:0;bottom:0;margin:auto 0;}
@@ -188,12 +196,12 @@ p{margin:0 0 18px;}
 .index-projects .carousel-control.right:hover{background-position:-1px 0;}
 
 .index-projects a{display:block;padding:76px 0 49px;color:#231f20;text-decoration:none;}
-.index-projects a.a_kl:hover{background:url(img/bg-index-project-a.png) repeat;}
+/*.index-projects a.a_kl:hover{background:url(img/bg-index-project-a.png) repeat;}*/
 .index-projects .table{display:table;margin:0 0 19px;}
 .index-projects .table-cell{display:table-cell;width:100%;vertical-align:bottom;text-align:center;height:55px;position:relative;}
 .index-projects img{max-width:100%;max-height:100%;}
-.index-projects a:hover img{opacity:0.25}
-.index-projects a:hover .hover{display:block;width:44px;height:44px;margin:0;/*background:url(img/bg-index-project-hover.png) no-repeat*/;position:absolute;top:3px;left:45%;}
+/*.index-projects a:hover img{opacity:0.25}*/
+/*.index-projects a:hover .hover{display:block;width:44px;height:44px;margin:0;background:url(img/bg-index-project-hover.png) no-repeat;position:absolute;top:3px;left:45%;}*/
 .index-projects .text{text-align:center;display:block;font-family:'PlayBold';font-size:12px;line-height:14px;}
 .btn-projects{margin:30px auto 16px;}
 
@@ -234,62 +242,79 @@ footer{}
 .breadcrumb ul{margin:0;padding:0;}
 .breadcrumb li{float:left;margin:0 5px 0 0;list-style:none;}
 .breadcrumb a{color:#00afe5;}
+
+
+
 .inner-menu{font-size:14px;}
 .inner-menu-this-bg{margin:0 0 25px;}
 .inner-menu ul{margin:0;padding:0;}
 .inner-menu li{float:left;margin:0 19px 5px 0;list-style:none;}
-.inner-menu a{color:#231f20;text-decoration:none;}
-.inner-menu a:hover,.inner-menu .active{color:#72cbe7;}
+.inner-menu a{color:#72cbe7;text-decoration:underline;    padding: 6px 10px 3px 29px;    margin-left: -29px;}
+.inner-menu a:hover,.inner-menu .active{color:#231f20;text-decoration: none;}
 .inner-menu li{margin:0 10px 5px 0;}
 .inner-menu-this-bg a{padding:6px 10px 3px 29px;margin-left:-29px;}
-.inner-menu-this-bg a:hover,.inner-menu-this-bg .active{color:#fff;background-color:#00afe5;border-radius:10px;}
-.inner-menu b{display:block;height:15px;background:url(img/sprite.png) no-repeat;float:left;position:relative;margin:0 7px 0 0;top:1px;}
-.inner-menu .mission b{width:17px;background-position:0 0;}
-.inner-menu .vision b{width:10px;background-position:-18px 0;}
-.inner-menu .goal b{width:15px;background-position:-29px 0;}
-.inner-menu .staff b{width:16px;background-position:-45px 0;}
-.inner-menu .reviews b{width:21px;background-position:-62px 0;}
-.inner-menu .work b{width:15px;background-position:-84px 0;}
-.inner-menu .partners b{width:18px;background-position:-100px 0;}
-.inner-menu .news b{width:15px;background-position:-119px 0;}
-.inner-menu .article b{width:21px;background-position:-135px 0;}
-.inner-menu .trade b{width:18px;background-position:-157px 0;}
-.inner-menu .accounting b{width:15px;background-position:-176px 0;}
-.inner-menu .production b{width:11px;background-position:-192px 0;}
-.inner-menu .setup-modification b{width:15px;background-position:-204px 0;}
-.inner-menu .maintenance-support b{width:14px;background-position:-220px 0;}
-.inner-menu .consulting b{width:14px;background-position:-235px 0;}
-.inner-menu .rent b{width:15px;background-position:-250px 0;}
-.inner-menu .advantages-rent b{width:15px;background-position:-323px 0;}
-.inner-menu .for-anybody b{width:15px;background-position:-339px 0;}
-.inner-menu .universal-solutions b{width:14px;background-position:-266px 0;}
-.inner-menu .industry-solutions b{width:10px;background-position:-281px 0;}
-.inner-menu .our-solutions b{width:15px;background-position:-292px 0;}
-.inner-menu .license-1C b{width:14px;background-position:-308px 0;}
-.inner-menu .mission:hover b,.inner-menu .mission.active b{background-position:0 -16px;}
-.inner-menu .vision:hover b,.inner-menu .vision.active b{background-position:-18px -16px;}
-.inner-menu .goal:hover b,.inner-menu .goal.active b{background-position:-29px -16px;}
-.inner-menu .staff:hover b,.inner-menu .staff.active b{background-position:-45px -16px;}
-.inner-menu .reviews:hover b,.inner-menu .reviews.active b{background-position:-62px -16px;}
-.inner-menu .work:hover b,.inner-menu .work.active b{background-position:-84px -16px;}
-.inner-menu .partners:hover b,.inner-menu .partners.active b{background-position:-100px -16px;}
-.inner-menu .news:hover b,.inner-menu .news.active b{background-position:-119px -16px;}
-.inner-menu .article:hover b,.inner-menu .article.active b{background-position:-135px -16px;}
-.inner-menu .trade:hover b,.inner-menu .trade.active b{background-position:-157px -16px;}
-.inner-menu .accounting:hover b,.inner-menu .accounting.active b{background-position:-176px -16px;}
-.inner-menu .production:hover b,.inner-menu .production.active b{background-position:-192px -16px;}
-.inner-menu .setup-modification:hover b,.inner-menu .setup-modification.active b{background-position:-204px -16px;}
-.inner-menu .maintenance-support:hover b,.inner-menu .maintenance-support.active b{background-position:-220px -16px;}
-.inner-menu .consulting:hover b,.inner-menu .consulting.active b{background-position:-235px -16px;}
-.inner-menu .rent:hover b,.inner-menu .rent.active b{background-position:-250px -16px;}
-.inner-menu .advantages-rent:hover b,.inner-menu .advantages-rent.active b{background-position:-323px -16px;}
-.inner-menu .for-anybody:hover b,.inner-menu .for-anybody.active b{background-position:-339px -16px;}
-.inner-menu .universal-solutions:hover b,.inner-menu .universal-solutions.active b{background-position:-266px -16px;}
-.inner-menu .industry-solutions:hover b,.inner-menu .industry-solutions.active b{background-position:-281px -16px;}
-.inner-menu .our-solutions:hover b,.inner-menu .our-solutions.active b{background-position:-292px -16px;}
-.inner-menu .license-1C:hover b,.inner-menu .license-1C.active b{background-position:-308px -16px;}
+.inner-menu-this-bg a:hover,.inner-menu-this-bg .active{/*color:#fff;background-color:#00afe5;border-radius:10px;*/}
+.inner-menu b{display:block;height:15px;background:url(img/sprite1.png) no-repeat;float:left;position:relative;margin:0 7px 0 0;top:1px;}
+.box-menu1 b{display:block;height:15px;background:url(img/sprite2.png) no-repeat;float:left;position:relative;margin:0 7px 0 0;top:1px;}
 
-.big-margin-bottom{margin:0 0 73px;}
+.box-menu1 .utt b{width:15px;background-position:0 -17px;} 
+.box-menu1 .bpr b{width:17px;background-position:-15px -17px;} 
+.box-menu1 .kpe b{width:17px;background-position:-31px -17px;} 
+.box-menu1 .ine b{width:17px;background-position:-47px -17px;}
+
+.box-menu1 .utt:hover b , .box-menu1 .utt.active b{width:15px;background-position:0 -1px;} 
+.box-menu1 .bpr:hover b, .box-menu1 .bpr.active b{width:17px;background-position:-15px -1px;} 
+.box-menu1 .kpe:hover b, .box-menu1 .kpe.active b{width:17px;background-position:-31px -1px;} 
+.box-menu1 .ine:hover b, .box-menu1 .ine.active b{width:17px;background-position:-47px -1px;}
+
+
+.inner-menu .mission b{width:17px;background-position:0 -16px;}
+.inner-menu .vision b{width:10px;background-position:-18px -16px;}
+.inner-menu .goal b{width:15px;background-position:-29px -16px;}
+.inner-menu .staff b{width:16px;background-position:-45px -16px;}
+.inner-menu .reviews b{width:21px;background-position:-62px -16px;}
+.inner-menu .work b{width:15px;background-position:-84px -16px;}
+.inner-menu .partners b{width:18px;background-position:-100px -16px;}
+.inner-menu .news b{width:15px;background-position:-119px -16px;}
+.inner-menu .article b{width:21px;background-position:-135px -16px;}
+.inner-menu .trade b{width:18px;background-position:-157px -16px;}
+.inner-menu .accounting b{width:15px;background-position:-176px -16px;}
+.inner-menu .production b{width:11px;background-position:-192px -16px;}
+.inner-menu .setup-modification b{width:15px;background-position:-204px -16px;}
+.inner-menu .maintenance-support b{width:14px;background-position:-220px -16px;}
+.inner-menu .consulting b{width:14px;background-position:-235px -16px;}
+.inner-menu .rent b{width:15px;background-position:-250px -16px;}
+.inner-menu .advantages-rent b{width:15px;background-position:-323px -16px;}
+.inner-menu .for-anybody b{width:15px;background-position:-339px -16px;}
+.inner-menu .universal-solutions b{width:14px;background-position:-266px -16px;}
+.inner-menu .industry-solutions b{width:10px;background-position:-281px -16px;}
+.inner-menu .our-solutions b{width:15px;background-position:-292px -16px;}
+.inner-menu .license-1C b{width:14px;background-position:-308px -16px;}
+
+.inner-menu .mission:hover b,.inner-menu .mission.active b{background-position:0 0;}
+.inner-menu .vision:hover b,.inner-menu .vision.active b{background-position:-18px 0;}
+.inner-menu .goal:hover b,.inner-menu .goal.active b{background-position:-29px 0;}
+.inner-menu .staff:hover b,.inner-menu .staff.active b{background-position:-45px 0;}
+.inner-menu .reviews:hover b,.inner-menu .reviews.active b{background-position:-62px 0;}
+.inner-menu .work:hover b,.inner-menu .work.active b{background-position:-84px 0;}
+.inner-menu .partners:hover b,.inner-menu .partners.active b{background-position:-100px 0;}
+.inner-menu .news:hover b,.inner-menu .news.active b{background-position:-119px 0;}
+.inner-menu .article:hover b,.inner-menu .article.active b{background-position:-135px 0;}
+.inner-menu .trade:hover b,.inner-menu .trade.active b{background-position:-157px 0;}
+.inner-menu .accounting:hover b,.inner-menu .accounting.active b{background-position:-176px 0;}
+.inner-menu .production:hover b,.inner-menu .production.active b{background-position:-192px 0;}
+.inner-menu .setup-modification:hover b,.inner-menu .setup-modification.active b{background-position:-204px 0px;}
+.inner-menu .maintenance-support:hover b,.inner-menu .maintenance-support.active b{background-position:-220px 0px;}
+.inner-menu .consulting:hover b,.inner-menu .consulting.active b{background-position:-235px 0px;}
+.inner-menu .rent:hover b,.inner-menu .rent.active b{background-position:-250px 0px;}
+.inner-menu .advantages-rent:hover b,.inner-menu .advantages-rent.active b{background-position:-323px 0px;}
+.inner-menu .for-anybody:hover b,.inner-menu .for-anybody.active b{background-position:-339px 0}
+.inner-menu .universal-solutions:hover b,.inner-menu .universal-solutions.active b{background-position:-266px 0;}
+.inner-menu .industry-solutions:hover b,.inner-menu .industry-solutions.active b{background-position:-281px 0;}
+.inner-menu .our-solutions:hover b,.inner-menu .our-solutions.active b{background-position:-292px 0;}
+.inner-menu .license-1C:hover b,.inner-menu .license-1C.active b{background-position:-308px 0;}
+
+.big-margin-bottom{margin:0 0 22px;}
 .big-margin-bottom-h1{margin:0 0 96px;}
 .box-margin-h1{margin:0 0 10px;}
 
@@ -347,6 +372,12 @@ footer{}
 .box-menu li{float:left;margin:0 10px 0 0;padding:0;list-style:none;font-size:14px;color:#6c696a;}
 .box-menu a{color:#00afe5;text-decoration:underline;}
 .box-menu a:hover,.box-menu a.active{color:#6c696a;text-decoration:none;}
+
+.box-menu1 .col-xs-12{margin-bottom:20px;}
+.box-menu1 ul{margin:0;padding:0;}
+.box-menu1 li{float:left;margin:0 10px 0 0;padding:0;list-style:none;font-size:14px;color:#6c696a;}
+.box-menu1 a{color:#00afe5;text-decoration:underline;}
+.box-menu1 a:hover,.box-menu a.active{color:#6c696a;text-decoration:none;}
 /****/
 .industry-solutions{}
 .industry-solutions h2{margin:50px 0 25px;color:#616161;line-height:24px;font-size:18px;text-transform:uppercase;font-family:'MullerLight';    padding-left: 15px;}
@@ -361,6 +392,8 @@ footer{}
 .tabl .right{text-align: right;}
 .tabl .td-lb2{padding: 0px 15px;background: #dedede;}
 .tabl .name-pr{margin: 0 0 3px 0;}
+    .obuch .name-pr{ float: left;font-size: 1.6em;}
+    .obuch .right{display: block; padding: 12px 10px 12px 15px;}
 .tabl .summ{font-size: 1.8em;font-weight: 600;}
 .tabl .valuta{}
 .otstup{margin-top:94px;width: 100%;}        
@@ -381,7 +414,10 @@ footer{}
 .form-cntr-end{ margin-top: 20px !important; width: 94.5%;}
 .form-cntr-end .tarea-end{width: 100% !important;}
 
-.partner-tab{ }
+.partner-tab{     font-size: 1.3em;    line-height: 1.5;    margin: 30px 0;}
+.partner-tab .col-md-3{ text-align: center;}
+.partner-tab .h2-lg{font-family: 'MullerBold','arial';font-size: 1.1em;}
+
 .partner-tab table{      width: 100%;    margin-bottom: 40px;}
 
 .tabl-sp{ border-spacing: 6px; border-collapse: separate; margin-left: -4px;width: 102%;}
@@ -390,7 +426,7 @@ footer{}
 .tabl-sp td{background: #eee; padding: 15px 30px;}
 
 .notatka{
-    font-size: 1.15em;
+    font-size: 1.5em;
     padding: 7px 20px;
     background: rgba(255, 241, 208, 0.36);
     margin-bottom: 0;
@@ -436,8 +472,8 @@ have a fixed width and height (but it's not required).
 .jcarousel li {
     /* Required only for block elements like <li>'s */
     float: left;
-    //width: 250px;
-    /*margin-left: 15px;
+    /*width: 250px;
+    margin-left: 15px;
      margin-right: 15px;
     background: #ccc;
     */
@@ -456,35 +492,81 @@ have a fixed width and height (but it's not required).
     position: relative;
     margin: 15px 0;
 }
-    .accordion{
-        border-radius: 20px;
+.accordion{
+    border-radius: 20px;
 
-    }
-    .accordion-body{}
-    .accordion-group{
-        background: #aaf;
-        margin-bottom: 15px;
-    }
-    .accordion-heading{
-        padding: 16px 36px 15px;
-        font-size: 1.2em;
-        color: #fff;
-    }
-    .accordion-inner{
-        background: #fff;
-        padding: 15px;
-        border: 1px solid #ccc;
-    }
-    .accordion-toggle{
-        color:#fff;
-    }
-    .icon-ac{
-           background: url(img/agenda1.png) no-repeat 0px 0px;
+}
+.accordion-body{}
+.accordion-group{
+    background: #F8F7F7;
+    margin-bottom: 15px;
+}
+.accordion-heading{
+    padding: 16px 36px 15px;
+    font-size: 1.2em;
+    color: #222;
+}
+.accordion-inner{
+    background: #fff;
+    padding: 15px;
+    /*  border: 1px solid #ccc;*/
+}
+.accordion-toggle{
+    color:#222;
+
+}
+.accordion-toggle:hover,.accordion-toggle:active,.accordion-toggle:focus{
+    text-decoration: none;
+}
+.icon-ac{
+    background: url(img/agenda1.png) no-repeat 0px 0px;
     width: 24px;
     height: 36px;
     position: absolute;
     margin-left: -28px;
     margin-top: -5px;
-    }
-    
-    
+}
+.celi li{
+    font-size: 1.1em;
+    line-height: 1.5;
+    list-style-image: url(img/prugol.png);
+}
+.celi ul{
+    margin-bottom: 25px;
+}   
+
+.fnt-s{
+    font-size: 1.1em;
+}
+.dalee{
+    font-size: 1em;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.email{
+    text-decoration: underline !important;
+}
+
+
+.str-ac {
+    background: url(img/v.jpg) no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+}
+
+.collapsed .str-ac {
+    background: url(img/v.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+}
+
+.box-7{
+    background: #F8F7F7;
+    padding: 1px 13px;
+    font-size: 1.1em;
+}
+

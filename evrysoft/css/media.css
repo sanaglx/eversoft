@@ -8,8 +8,8 @@
   //  .header-e-mail{text-align:center;}
     .header-btn a{margin:10px auto 0;float:none;text-shadow: 1px 1px 1px #555;}
     .navbar-nav{margin:0 -15px;}
-    .index-projects a.a_kl{}
-    .index-projects a.a_kl:hover{border-bottom:9px solid #00afe5;}
+    .index-projects a.a_kl{cursor: default;}
+   // .index-projects a.a_kl:hover{border-bottom:9px solid #00afe5;}
     .reviews .carousel-inner{width:100%;padding:0 45px;}
     .reviews .logo{display:none;}
     .reviews .text{width:100%;}
@@ -40,7 +40,7 @@
     .navbar-nav .index{border-left:9px solid #00afe5;padding:20px 22px 18px 17px;}
     #navbarCollapse{display:block;}
     .index-projects a{border-bottom:none;}
-    .index-projects  a.a_kl:hover{position:absolute;border-bottom:9px solid #00afe5;left:15px;right:15px;height: 226px;}
+    //.index-projects  a.a_kl:hover{position:absolute;border-bottom:9px solid #00afe5;left:15px;right:15px;height: 226px;}
     .reviews .carousel-inner{width:575px;margin:0 80px;padding:0;}
     .reviews .logo{width:165px;display:block;}
     .reviews .text{width:375px;}

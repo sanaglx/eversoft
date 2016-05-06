@@ -7,13 +7,14 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	
-	<title>Статьи</title>
+	<title>Блог</title>
 	
 	<link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" href="fancybox/jquery.fancybox.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/jquery.fancybox.css">
 	<link type="text/css" href="css/style.css" rel="stylesheet">
 	<link type="text/css" href="css/media.css" rel="stylesheet">
+        <link type="text/css" href="css/main.css" rel="stylesheet">
 			
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -72,7 +73,7 @@
                                         <li><a href="target.html">Цели</a></li>
                                         <li><a href="staff.html">Сотрудники</a></li>
                                         <li><a href="work.html">Хочу у вас работать</a></li>
-                                        <li><a href="partner.html">Партнеры</a></li>
+                                        <li><a href="partner.html"> Партнеры</a></li><li ><a href="recvizit.html">Документы</a></li>
                                     </ul>
                                 </li>
                                 <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">CRM<b class="caret"></b></a>
@@ -112,7 +113,7 @@
             <header>
                 <div class="row">
                     <div class="col-md-3 col-sm-6 hidden-sm logo">
-                        <a href="/"><img src="images/logo.png" alt="Лого" title="Лого"></a>
+                        <a href="index.html"><img src="images/logo.png" alt="Лого" title="Лого"></a>
                     </div>
                     <div>
                         <div class="col-lg-3 col-md-4 hidden-sm header-partner">
@@ -127,7 +128,7 @@
                         </div>
                         <!-- <div class="col-md-2 col-sm-4">-->
                         <div class="hidden-lg col-sm-6 visible-sm logo">
-                            <a href="/"><img src="images/vertical.png" alt="Лого" title="Лого" width="212"></a>
+                            <a href="index.html"><img src="images/vertical.png" alt="Лого" title="Лого" width="212"></a>
                         </div>
 
                         <div class="col-md-4 col-sm-6">
@@ -153,7 +154,7 @@
             <form method="post" id="form-feedback">
                 <input type="text" placeholder="Представьтесь, пожалуйста" name="name" id="name" class="input_text"/>
                 <div id="bthrow_error_name"></div>
-                <input type="text" placeholder="Телефон*" name="phone" id="phone" class="input_text" required >
+                <input type="text" placeholder="Телефон*" name="phone" id="phone" pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" class="input_text" required >
                 <div id="bthrow_error_phone"></div>
                 <input class="btn btn-blue" type="submit" value="Заказать звонок">
                 <div class="throw_error"></div>
@@ -187,7 +188,7 @@
 							<li><a href="staff.html" class="staff"><b></b>Сотрудники</a></li>
 							<li><a href="#" class="reviews"><b></b>Отзывы</a></li>
 							<li><a href="work.html" class="work"><b></b>Хочу у вас работать</a></li>
-							<li><a href="partner.html" class="partners"><b></b>Партнеры</a></li>
+							<li><a href="partner.html" class="partners"><b></b>Партнеры</a></li><li><a href="recvizit.html" class="work"><b></b>Документы</a></li>
 							<li><a href="#" class="news "><b></b>Новости</a></li>
 							<li><a href="article.html " class="article active"><b></b>Статьи</a></li>
 						</ul>
@@ -233,62 +234,51 @@
 		</div><!-- end inner -->
 	</div>
 	<footer>
-		<div class="footer-menu">
-			<div class="container">
-				<div class="row">
-					<b class="line"></b>
-					<div class="col-xs-6 col-md-3">
-						<div class="name">Продукты 1С</div>
-						<ul>
-							<li><a href="#">1С:Предприятие 8 для управления и учета</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-							<li><a href="#">Предыдущие версии: 7.7</a></li>
-							<li><a href="#">1С:Совместимо</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-						</ul>
-					</div>
-					<div class="col-xs-6 col-md-3">
-						<div class="name">Продукты 1С</div>
-						<ul>
-							<li><a href="#">1С:Предприятие 8 для управления и учета</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-							<li><a href="#">Предыдущие версии: 7.7</a></li>
-							<li><a href="#">1С:Совместимо</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-						</ul>
-					</div>
-					<div class="clearfix visible-xs"></div>
-					<div class="col-xs-6 col-md-3">
-						<div class="name">Продукты 1С</div>
-						<ul>
-							<li><a href="#">1С:Предприятие 8 для управления и учета</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-							<li><a href="#">Предыдущие версии: 7.7</a></li>
-							<li><a href="#">1С:Совместимо</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-						</ul>
-					</div>
-					<div class="col-xs-6 col-md-3">
-						<div class="name">Продукты 1С</div>
-						<ul>
-							<li><a href="#">1С:Предприятие 8 для управления и учета</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-							<li><a href="#">Предыдущие версии: 7.7</a></li>
-							<li><a href="#">1С:Совместимо</a></li>
-							<li><a href="#">1С:Бухгалтерия 8 </a></li>
-							<li><a href="#">1С:Предприятие </a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div><!-- menu footer-menu -->
+		  <div class="footer-menu"><!-- end footer-menu -->
+                <div class="container">
+                    <div class="row">
+                        <b class="line"></b>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">Продукты &nbsp; 1С</div>
+                            <ul>
+                                <li><a href="company-accounting.html">1С &nbsp;Бухгалтерия </a></li>
+                                <li><a href="trade-management.html">1С&nbsp;Торговля</a></li>
+                                <li><a href="universal-solutions.html">1С&nbsp;Зарплата</a></li>
+                                <li><a href="enterprise-management.html">1С&nbsp;Производство </a></li>
+                                <li><a href="industry-solutions.html">Отраслевые решения 1С</a></li>
+                                <li><a href="licen.html">Лицензии 1С</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">Услуги &nbsp; 1С</div>
+                            <ul>
+                                <li><a href="setup-modification.html">Настройка и доработка 1С</a></li>
+                                <li><a href="maintenance-support.html">Сопровождение и поддержка 1С </a></li>
+                                <li><a href="rent.html">Аренда 1С </a></li>
+                                <!--<li><a href="#">Сайт + 1С</a></li>-->
+                            </ul>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">Обучение</div>
+                            <ul>
+                                <li><a href="training-ut.html">Управление торговлей</a></li>
+                                <li><a href="training-bp.html">Бухгалтерия предприятия</a></li>
+                                <li><a href="training-k.html">Корпоративное</a></li>
+                                <li><a href="training-i.html">Индивидуальное</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">CRM</div>
+                            <ul>
+                                <li><a href="amocrm.html">АmoCRM</a></li>
+                                <li><a href="bitrix24.html">Битрикс 24 </a></li>
+                                <li><a href="crm.html">1С: CRM </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end footer-menu -->
 		<div class="footer-copy">
 			<div class="container">
 				<div class="row">

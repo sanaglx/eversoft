@@ -39,11 +39,11 @@
             .on('click', function(e) {
                 e.preventDefault();
             })
-            .jcarouselPagination({
+          /*  .jcarouselPagination({
                 perPage: 1,
                 item: function(page) {
                     return '<a href="#' + page + '">' + page + '</a>';
                 }
-            });
+            });*/
     });
 })(jQuery);

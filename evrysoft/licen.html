@@ -7,13 +7,14 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
 
-        <title>Главная</title>
+        <title>Лицензии</title>
 
         <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="fancybox/jquery.fancybox.css" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/jquery.fancybox.css">
         <link type="text/css" href="css/style.css" rel="stylesheet">
         <link type="text/css" href="css/media.css" rel="stylesheet">
+        <link type="text/css" href="css/main.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -72,7 +73,7 @@
                                         <li><a href="target.html">Цели</a></li>
                                         <li><a href="staff.html">Сотрудники</a></li>
                                         <li><a href="work.html">Хочу у вас работать</a></li>
-                                        <li><a href="partner.html">Партнеры</a></li>
+                                        <li><a href="partner.html"> Партнеры</a></li><li ><a href="recvizit.html">Документы</a></li>
                                     </ul>
                                 </li>
                                 <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">CRM<b class="caret"></b></a>
@@ -112,7 +113,7 @@
             <header>
                 <div class="row">
                     <div class="col-md-3 col-sm-6 hidden-sm logo">
-                        <a href="/"><img src="images/logo.png" alt="Лого" title="Лого"></a>
+                        <a href="index.html"><img src="images/logo.png" alt="Лого" title="Лого"></a>
                     </div>
                     <div>
                         <div class="col-lg-3 col-md-4 hidden-sm header-partner">
@@ -127,7 +128,7 @@
                         </div>
                         <!-- <div class="col-md-2 col-sm-4">-->
                         <div class="hidden-lg col-sm-6 visible-sm logo">
-                            <a href="/"><img src="images/vertical.png" alt="Лого" title="Лого" width="212"></a>
+                            <a href="index.html"><img src="images/vertical.png" alt="Лого" title="Лого" width="212"></a>
                         </div>
 
                         <div class="col-md-4 col-sm-6">
@@ -153,29 +154,31 @@
             <form method="post" id="form-feedback">
                 <input type="text" placeholder="Представьтесь, пожалуйста" name="name" id="name" class="input_text"/>
                 <div id="bthrow_error_name"></div>
-                <input type="text" placeholder="Телефон*" name="phone" id="phone" class="input_text" required >
+                <input type="text" placeholder="Телефон*" name="phone" id="phone" pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" class="input_text" required >
                 <div id="bthrow_error_phone"></div>
                 <input class="btn btn-blue" type="submit" value="Заказать звонок">
                 <div class="throw_error"></div>
             </form>
         </div>
-<!-- end top-menu -->
+        <!-- end top-menu -->
 
         <div class="contant"><!-- index-menu,index-projects, reviews -->
-                       <div class="breadcrumb">
+            <div class="breadcrumb">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <ul>
                                 <li><a href="index.html">Главная</a></li>
                                 <li>/</li>
+                                <li>Продукты 1С</li>
+                                <li>/</li>
                                 <li>Лицензии</li>
-                             </ul>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="inner">
                 <div class="container">
                     <div class="row">
@@ -209,6 +212,31 @@
                             </table>   
                         </div>
                     </div>
+
+                    <!-- start form -->
+                    <div class="col-lg-12  col-md-6 col-sm-6 col-xs-12 form-1">
+                        <form id ="form1" action="javascript:void(0);"  method="post" onsubmit="ajax1()" >
+                            <div class="form-group form-contr">
+                                <label class="sr-only" for="InputName">Ваше имя</label>
+                                <input type="text" name="name" class="form-control" id="InputName" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group form-contr">
+                                <label class="sr-only" for="InputPhone">Номер телефона</label>
+                                <input type="tel" name="phone" class="form-control" id="InputPhone" placeholder="Номер телефона"  >
+                            </div>
+                            <div class="form-group form-contr">
+                                <label class="sr-only" for="InputEmail">Email</label>
+                                <input type="text" name="email" class="form-control" id="InputEmail" placeholder="E-mail">
+                            </div>
+                            <div class="form-group form-contr">
+                                <button type="submit" class="btn btn-blue ">Оставить заявку</button>
+                            </div>
+                            <input type="hidden" name ="book" value ="ЛИЦЕНЗИИ">
+                        </form>
+                        <div id="results1"></div>
+                    </div>
+                    <!-- end form -->
+
                 </div>
             </div>
         </div>
@@ -220,39 +248,39 @@
                         <div class="col-xs-12  col-md-3 ">
                             <div class="name">Продукты &nbsp; 1С</div>
                             <ul>
-                                <li><a href="#">1С &nbsp;Бухгалтерия </a></li>
-                                <li><a href="#">1С&nbsp;Торговля</a></li>
-                                <li><a href="#">1С&nbsp;Зарплата</a></li>
-                                <li><a href="#">1С&nbsp;Производство </a></li>
-                                <li><a href="#">Отраслевые решения 1С</a></li>
-                                <li><a href="#">Лицензии 1С</a></li>
+                                <li><a href="company-accounting.html">1С &nbsp;Бухгалтерия </a></li>
+                                <li><a href="trade-management.html">1С&nbsp;Торговля</a></li>
+                                <li><a href="universal-solutions.html">1С&nbsp;Зарплата</a></li>
+                                <li><a href="enterprise-management.html">1С&nbsp;Производство </a></li>
+                                <li><a href="industry-solutions.html">Отраслевые решения 1С</a></li>
+                                <li><a href="licen.html">Лицензии 1С</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-12  col-md-3 ">
                             <div class="name">Услуги &nbsp; 1С</div>
                             <ul>
-                                <li><a href="#">Настройка и доработка 1С</a></li>
-                                <li><a href="#">Сопровождение и поддержка 1С </a></li>
-                                <li><a href="#">Аренда 1С </a></li>
-                                <li><a href="#">Сайт + 1С</a></li>
+                                <li><a href="setup-modification.html">Настройка и доработка 1С</a></li>
+                                <li><a href="maintenance-support.html">Сопровождение и поддержка 1С </a></li>
+                                <li><a href="rent.html">Аренда 1С </a></li>
+                                <!--<li><a href="#">Сайт + 1С</a></li>-->
                             </ul>
                         </div>
                         <div class="clearfix visible-xs"></div>
                         <div class="col-xs-12  col-md-3 ">
                             <div class="name">Обучение</div>
                             <ul>
-                                <li><a href="#">Управление торговлей</a></li>
-                                <li><a href="#">Бухгалтерия предприятия</a></li>
-                                <li><a href="#">Корпоративное</a></li>
-                                <li><a href="#">Индивидуальное</a></li>
+                                <li><a href="training-ut.html">Управление торговлей</a></li>
+                                <li><a href="training-bp.html">Бухгалтерия предприятия</a></li>
+                                <li><a href="training-k.html">Корпоративное</a></li>
+                                <li><a href="training-i.html">Индивидуальное</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-12  col-md-3 ">
                             <div class="name">CRM</div>
                             <ul>
-                                <li><a href="#">АmoCRM</a></li>
-                                <li><a href="#">Битрикс 24 </a></li>
-                                <li><a href="#">1С: CRM </a></li>
+                                <li><a href="amocrm.html">АmoCRM</a></li>
+                                <li><a href="bitrix24.html">Битрикс 24 </a></li>
+                                <li><a href="crm.html">1С: CRM </a></li>
                             </ul>
                         </div>
                     </div>
@@ -278,14 +306,14 @@
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script>
-            $(window).on("scroll", function () {
+                            $(window).on("scroll", function () {
 
-                if ($(window).scrollTop() > 100)
-                    $('.polosa').addClass('p-show');
-                else
-                    $('.polosa').removeClass('p-show');
+                                if ($(window).scrollTop() > 100)
+                                    $('.polosa').addClass('p-show');
+                                else
+                                    $('.polosa').removeClass('p-show');
 
-            });
+                            });
         </script>
     </body>
 </html>
