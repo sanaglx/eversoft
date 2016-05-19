@@ -87,6 +87,7 @@ $(document).ready(function () {
         $('#okno9').fadeOut(200);
         $('#okno10').fadeOut(200);
         $('#overlay').fadeOut(200);
+        $('.overlay1').fadeOut(200);
         $('input').val('');
         $('textarea').val("");
         $('.tarea-end').text("");
@@ -102,6 +103,7 @@ $(document).ready(function () {
         $('#okno8').fadeOut(200);
         $('#okno9').fadeOut(200);
         $('#okno10').fadeOut(200);
+        $('.overlay1').fadeOut(200);
     });
 
     function ajax1() { //Ajax отправка формы
@@ -112,6 +114,7 @@ $(document).ready(function () {
             data: msg,
             success: function (data) {
                 $("#results1").html(data);
+                $(".overlay1").show();
             },
             error: function (xhr, str) {
                 alert("Возникла ошибка!");
@@ -120,7 +123,7 @@ $(document).ready(function () {
     }
     
     /*work.html*/
-    function ajax2() { //Ajax отправка формы
+    function ajax5() { //Ajax отправка формы
         var msg = $("#form2").serialize();
         $.ajax({
             type: "POST",
@@ -128,12 +131,41 @@ $(document).ready(function () {
             data: msg,
             success: function (data) {
                 $("#results1").html(data);
+                $(".overlay1").show();
             },
             error: function (xhr, str) {
                 alert("Возникла ошибка!");
             }
         });
     }
+    
+    function ajax2() {
+    var form = document.forms.form2;
+
+    var formData = new FormData(form);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "./mail_form/form6_1.php");
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4) {
+            if (xhr.status == 200) {
+                data = xhr.responseText;
+                if (data == "true") {
+                    $("#results1").html(data);
+                    $(".overlay1").show();
+                } else {
+                  /*  $("#results6").replaceWith("<p >Ошибка! Обновите страницу...<p>");*/
+                   $("#results1").html(data);
+                  $(".overlay1").show();
+                }
+            }
+        }
+    };
+
+    xhr.send(formData);
+
+}
 
 
 

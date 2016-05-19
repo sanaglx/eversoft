@@ -5,9 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
-        <meta name="keywords" content="">
+                <meta name="keywords" content="">         <link rel="icon" href="favicon.ico" type="image/x-icon" />         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />  
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
 
         <title>Хочу у вас работать</title>
+
 
         <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
         <link type="text/css" href="fancybox/jquery.fancybox.css" rel="stylesheet">
@@ -153,7 +156,7 @@
             <h2>Заказать обратный звонок</h2>
             <div class="comment">Наш менеджер перезвонит Вам с 10.00 до 19.00</div>
             <form method="post" id="form-feedback">
-                <input type="text" placeholder="Представьтесь, пожалуйста" name="name" id="name" class="input_text"/>
+                <input type="text" placeholder="Представьтесь, пожалуйста" name="name"  id="name" pattern="([A-Za-zА-Яа-яЁё\s]{1,50})" title="Допустимы буквы и пробел" class="input_text"/>
                 <div id="bthrow_error_name"></div>
                 <input type="text" placeholder="Телефон*" name="phone" id="phone" pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" class="input_text" required >
                 <div id="bthrow_error_phone"></div>
@@ -174,6 +177,7 @@
                                 <li>Компания</li>
                                 <li>/</li>
                                 <li>Хочу у Вас работать</li>
+                                <li>/</li>
                             </ul>
                         </div>
                     </div>
@@ -346,7 +350,7 @@
                             <!-- /////////////////////////////////////////////////////////////////////////////////     -->
 
                             <div class="col-lg-12  col-md-6 col-sm-6 col-xs-12 form-1">
-                                 <form id ="form2" action="javascript:void(0);"  method="post" onsubmit="ajax2()" >
+                                 <form id ="form2" enctype="multipart/form-data" action="javascript:void(0);"  method="post" onsubmit="ajax2()" >
                                     <div class="form-group form-contr">
                                         <label class="sr-only" for="InputName">Ваше имя</label>
                                          <input type="text" name="name" class="form-control" id="InputName" placeholder="Ваше имя">
@@ -368,9 +372,12 @@
                                         <textarea class="form-control tarea-end" name="text_a" rows="5" id="InputDlg" placeholder="Должность на которую претендуете и пару слов о себе"></textarea>
 
                                     </div>
-                                      <input type="hidden" name ="book" value ="Хочу у вас работать">
+                                     <div class="form-group form-contr customfile-container">
+                                        <input type="file" id="file" name="myfiles"  />
+                                    </div>
+                                      <input type="hidden" name ="book" value =" странице Хочу у вас работать">
                                 </form>
-                                <div id="results1"></div>
+                                <div id="results1"></div>  <div style="width: auto; height: auto; " class="overlay1"></div> 
                             </div>
                         </div>
                     </div>
@@ -451,6 +458,140 @@
                     $('.polosa').removeClass('p-show');
 
             });
+        </script>
+        <script>
+            /******** input file  form***********/
+            (function ($) {
+
+                // Browser supports HTML5 multiple file?
+                var multipleSupport = typeof $('<input/>')[0].multiple !== 'undefined',
+                        isIE = /msie/i.test(navigator.userAgent);
+
+                $.fn.customFile = function () {
+
+                    return this.each(function () {
+
+                        var $file = $(this).addClass('customfile'), // the original file input
+                                $wrap = $('<div class="customfile-wrap">'),
+                                $input = $('<input type="text" class="customfile-filename" />'),
+                                // Button that will be used in non-IE browsers
+                                $button = $('<button type="button" class="customfile-upload">Добавить файл резюме</button>'),
+                                // Hack for IE
+                                $label = $('<label class="customfile-upload" for="' + $file[0].id + '">Добавить файл резюме</label>');
+
+                        // Hide by shifting to the left so we
+                        // can still trigger events
+                        $file.css({
+                            position: 'absolute',
+                            left: '-9999px'
+                        });
+
+                        $wrap.insertAfter($file)
+                                .append($file, $input, (isIE ? $label : $button));
+
+                        // Prevent focus
+                        $file.attr('tabIndex', -1);
+                        $button.attr('tabIndex', -1);
+
+                        $button.click(function () {
+                            $file.focus().click(); // Open dialog
+                        });
+
+                        $file.change(function () {
+
+                            var files = [], fileArr, filename;
+
+                            // If multiple is supported then extract
+                            // all filenames from the file array
+                            if (multipleSupport) {
+                                fileArr = $file[0].files;
+                                for (var i = 0, len = fileArr.length; i < len; i++) {
+                                    files.push(fileArr[i].name);
+                                }
+                                filename = files.join(', ');
+
+                                // If not supported then just take the value
+                                // and remove the path to just show the filename
+                            } else {
+                                filename = $file.val().split('\\').pop();
+                            }
+
+                            $input.val(filename) // Set the value
+                                    .attr('title', filename) // Show filename in title tootlip
+                                    .focus(); // Regain focus
+
+                        });
+
+                        $input.on({
+                            blur: function () {
+                                $file.trigger('blur');
+                            },
+                            keydown: function (e) {
+                                if (e.which === 13) { // Enter
+                                    if (!isIE) {
+                                        $file.trigger('click');
+                                    }
+                                } else if (e.which === 8 || e.which === 46) { // Backspace & Del
+                                    // On some browsers the value is read-only
+                                    // with this trick we remove the old input and add
+                                    // a clean clone with all the original events attached
+                                    $file.replaceWith($file = $file.clone(true));
+                                    $file.trigger('change');
+                                    $input.val('');
+                                } else if (e.which === 9) { // TAB
+                                    return;
+                                } else { // All other keys
+                                    return false;
+                                }
+                            }
+                        });
+
+                    });
+
+                };
+
+                // Old browser fallback
+                if (!multipleSupport) {
+                    $(document).on('change', 'input.customfile', function () {
+
+                        var $this = $(this),
+                                // Create a unique ID so we
+                                // can attach the label to the input
+                                uniqId = 'customfile_' + (new Date()).getTime(),
+                                $wrap = $this.parent(),
+                                // Filter empty input
+                                $inputs = $wrap.siblings().find('.customfile-filename')
+                                .filter(function () {
+                                    return !this.value
+                                }),
+                                $file = $('<input type="file" id="' + uniqId + '" name="' + $this.attr('name') + '"/>');
+
+                        // 1ms timeout so it runs after all other events
+                        // that modify the value have triggered
+                        setTimeout(function () {
+                            // Add a new input
+                            if ($this.val()) {
+                                // Check for empty fields to prevent
+                                // creating new inputs when changing files
+                                if (!$inputs.length) {
+                                    $wrap.after($file);
+                                    $file.customFile();
+                                }
+                                // Remove and reorganize inputs
+                            } else {
+                                $inputs.parent().remove();
+                                // Move the input so it's always last on the list
+                                $wrap.appendTo($wrap.parent());
+                                $wrap.find('input').focus();
+                            }
+                        }, 1);
+
+                    });
+                }
+
+            }(jQuery));
+
+            $('input[type=file]').customFile();
         </script>
     </body>
 </html>

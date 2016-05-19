@@ -107,7 +107,10 @@ and open the template in the editor.
   position: absolute;
   z-index: 100000000;
   top: -53px;
-  margin-left: 89px; }
+  left: 0;
+  right: 0;
+  width: 457px;
+  margin: 0 auto; }
 
 .results51 {
   top: -20px !important; }
@@ -131,8 +134,9 @@ and open the template in the editor.
   border-radius: 4px;
   color: #060606;
   font-size: 1.2em;
-  width: 857px;
-  background: rgba(0, 175, 229, 0.57);
+  width: 457px;
+  /* background: rgba(0, 175, 229, 0.9);*/
+  background: rgba(255, 255, 255, 0.9);
   text-align: center; }
 
 #overlay {
@@ -149,5 +153,34 @@ and open the template in the editor.
   cursor: pointer;
   display: none;
   z-index: 1000; }
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background: url("img/fancybox_overlay.png");
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+.customfile-container {
+  margin-top: 20px; }
+  .customfile-container .customfile-filename {
+    padding: 7px;
+    width: 281px; }
+  .customfile-container .customfile-upload {
+    padding: 9px;
+    width: 199px;
+    background: #ACACAC;
+    color: #fff;
+    border-color: #C8C7C7;
+    font-size: 1.1em;
+    float: right;
+    border: 0; }
+  .customfile-container .customfile-upload:hover {
+    background: #898989; }
 
 /*# sourceMappingURL=main.css.map */

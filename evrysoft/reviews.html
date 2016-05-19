@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
-        <meta name="keywords" content="">
+        <meta name="keywords" content=""> 
+        <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />  
 
         <title>Блог</title>
 
@@ -16,14 +18,12 @@
         <link type="text/css" href="css/style.css" rel="stylesheet">
         <link type="text/css" href="css/media.css" rel="stylesheet">
         <link type="text/css" href="css/main.css" rel="stylesheet">
-        <link type="text/css" href="css/main.css" rel="stylesheet">
-
 
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-       
+
     </head>
     <body>
         <div class="top-menu fixed">
@@ -77,7 +77,8 @@
                                         <li><a href="target.html">Цели</a></li>
                                         <li><a href="staff.html">Сотрудники</a></li>
                                         <li><a href="work.html">Хочу у вас работать</a></li>
-                                        <li><a href="partner.html"> Партнеры</a></li><li ><a href="recvizit.html">Документы</a></li>
+                                        <li><a href="partner.html"> Партнеры</a></li>
+                                        <li ><a href="recvizit.html">Документы</a></li>
                                     </ul>
                                 </li>
                                 <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">CRM<b class="caret"></b></a>
@@ -156,7 +157,7 @@
             <h2>Заказать обратный звонок</h2>
             <div class="comment">Наш менеджер перезвонит Вам с 10.00 до 19.00</div>
             <form method="post" id="form-feedback">
-                <input type="text" placeholder="Представьтесь, пожалуйста" name="name" id="name" class="input_text"/>
+                <input type="text" placeholder="Представьтесь, пожалуйста" name="name"  id="name" pattern="([A-Za-zА-Яа-яЁё\s]{1,50})" title="Допустимы буквы и пробел" class="input_text"/>
                 <div id="bthrow_error_name"></div>
                 <input type="text" placeholder="Телефон*" name="phone" id="phone" pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" class="input_text" required >
                 <div id="bthrow_error_phone"></div>
@@ -212,7 +213,7 @@
                                 </p>        
                             </div>
                             <div class="dalee" >
-                               <a id ="st1" href="news/news2.html" class="various fancybox.ajax" >далее...</a>
+                                <a id ="st1" href="news/news2.html" class="various fancybox.ajax" >далее...</a>
                             </div>
                         </div>
                     </div>  
@@ -227,7 +228,7 @@
                                 </p>        
                             </div>
                             <div class="dalee" >
-                             <a id ="st1" href="news/news3.html" class="various fancybox.ajax" >далее...</a>
+                                <a id ="st1" href="news/news3.html" class="various fancybox.ajax" >далее...</a>
                             </div>
                         </div>
                     </div>          
@@ -242,7 +243,7 @@
                                 </p>        
                             </div>
                             <div class="dalee" >
-                            <a id ="st1" href="news/news4.html" class="various fancybox.ajax" >далее...</a>
+                                <a id ="st1" href="news/news4.html" class="various fancybox.ajax" >далее...</a>
                             </div>
                         </div>
                     </div>
@@ -294,7 +295,7 @@
 
 
         <footer>
-              <div class="footer-menu"><!-- end footer-menu -->
+            <div class="footer-menu"><!-- end footer-menu -->
                 <div class="container">
                     <div class="row">
                         <b class="line"></b>
@@ -358,12 +359,12 @@
         <script type="text/javascript" src="js/jquery.fancybox.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
-       
+
         <script src="js/jquery.jcarousel-core.js" type="text/javascript"></script>
         <script src="js/jquery.jcarousel-control.js" type="text/javascript"></script>
         <script src="js/jcarousel.responsive.js" type="text/javascript"></script>
 
-        <script> 
+        <script>
             $(window).on("scroll", function () {
 
                 if ($(window).scrollTop() > 100)
@@ -373,19 +374,19 @@
 
             });
         </script>
-          <script>
-        $(".various").fancybox({
-                      maxWidth	: 940,
-                      maxHeight	: 1024,
-                      fitToView	: false,
-                      width		: '70%',
-                      height		: '70%',
-                      autoSize	: true,
-                      closeClick	: false,
-                      openEffect	: 'none',
-                      closeEffect	: 'none'
-              });
-            
+        <script>
+            $(".various").fancybox({
+                maxWidth: 940,
+                maxHeight: 1024,
+                fitToView: false,
+                width: '70%',
+                height: '70%',
+                autoSize: true,
+                closeClick: false,
+                openEffect: 'none',
+                closeEffect: 'none'
+            });
+
         </script>
     </body>
 </html>

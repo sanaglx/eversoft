@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
-        <meta name="keywords" content="">
+                <meta name="keywords" content="">         <link rel="icon" href="favicon.ico" type="image/x-icon" />         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />  
 
         <title>amoCRM</title>
 
@@ -15,7 +15,6 @@
         <link href="css/jcarousel.responsive.css" rel="stylesheet" type="text/css"/>
         <link type="text/css" href="css/style.css" rel="stylesheet">
         <link type="text/css" href="css/media.css" rel="stylesheet">
-        <link type="text/css" href="css/main.css" rel="stylesheet">
         <link type="text/css" href="css/main.css" rel="stylesheet">
 
 
@@ -155,7 +154,7 @@
             <h2>Заказать обратный звонок</h2>
             <div class="comment">Наш менеджер перезвонит Вам с 10.00 до 19.00</div>
             <form method="post" id="form-feedback">
-                <input type="text" placeholder="Представьтесь, пожалуйста" name="name" id="name" class="input_text"/>
+                <input type="text" placeholder="Представьтесь, пожалуйста" name="name"  id="name" pattern="([A-Za-zА-Яа-яЁё\s]{1,50})" title="Допустимы буквы и пробел" class="input_text"/>
                 <div id="bthrow_error_name"></div>
                 <input type="text" placeholder="Телефон*" name="phone" id="phone" pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" class="input_text" required >
                 <div id="bthrow_error_phone"></div>
@@ -254,9 +253,9 @@
                     <div class="form-group form-contr">
                         <button type="submit" class="btn btn-blue ">Оставить заявку</button>
                     </div>
-                    <input type="hidden" name ="book" value ="amoCRM">
+                    <input type="hidden" name ="book" value =" странице amoCRM">
                 </form>
-                <div id="results1"></div>
+                <div id="results1"></div>  <div style="width: auto; height: auto; " class="overlay1"></div> 
             </div>
             <!-- end form -->
         </div>  
