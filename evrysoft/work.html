@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+                <meta name="keywords" content="">         <link rel="icon" href="favicon.ico" type="image/x-icon" />         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />  
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+
+        <title>Хочу у вас работать</title>
+
+
+        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="fancybox/jquery.fancybox.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/jquery.fancybox.css">
+        <link type="text/css" href="css/style.css" rel="stylesheet">
+        <link type="text/css" href="css/media.css" rel="stylesheet">
+        <link type="text/css" href="css/main.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="top-menu fixed">
+            <div class="container">
+                <nav role="navigation" class="navbar navbar-default navbar-fixed-top  fixed">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                                <span class="sr-only">Меню</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class=""><a href="index.html" class="index "><img class="img-ress" src="images/top-menu-index.png" title="Главная" alt="Главная"></a></li>
+                                <li class="dropdown ">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Продукты &nbsp; 1С<b class="caret"></b></a>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li><a href="universal-solutions.html">Универсальные решения</a></li>
+                                        <li><a href="industry-solutions.html">Отраслевые решения</a></li>
+                                        <!-- <li class="active"><a href="#">Наши решения</a></li>-->
+                                        <li><a href="licen.html">Лицензии на 1С</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Услуги &nbsp; 1С<b class="caret"></b></a>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li><a href="setup-modification.html">Настройка и доработка</a></li>
+                                        <li><a href="maintenance-support.html">Сопровождение и поддержка</a></li>
+                                        <!-- <li><a href="#">Консалтинг</a></li>-->
+                                        <li><a href="rent.html">Аренда</a></li>
+                                        <!--<li><a href="#">Автоматизация бизнес-процессов</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="">Обучение &nbsp; 1С<b class="caret"></b></a>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li><a href="training-ut.html">Управление торговлей</a></li>
+                                        <li><a href="training-bp.html">Бухгалтерия предприятия</a></li>
+                                        <li><a href="training-k.html">Корпоративное</a></li>
+                                        <li><a href="training-i.html">Индивидуальное</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown active">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Компания<b class="caret"></b></a>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li><a href="mission.html">Миссия</a></li>
+                                        <li><a href="vision.html">Видение</a></li>
+                                        <li><a href="target.html">Цели</a></li>
+                                        <li><a href="staff.html">Сотрудники</a></li>
+                                        <li class="active"><a href="work.html">Хочу у вас работать</a></li>
+                                        <li><a href="partner.html">Партнеры</a></li>
+                                        <li><a href="recvizit.html">Документы</a></li>
+                                    </ul>
+                                </li>
+                                <li><a data-toggle="dropdown" class="dropdown-toggle" href="#">CRM<b class="caret"></b></a>
+                                    <ul role="menu" class="dropdown-menu">
+                                        <li><a href="amocrm.html" style="text-transform: none;" >amoCRM</a></li>
+                                        <li><a href="bitrix24.html">Битрикс 24</a></li>
+                                        <li><a href="crm.html">1С:CRM</a></li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="reviews.html">Блог</a></li>
+                            </ul>
+                        </div>
+                        <div class="polosa hidden-xs"> 
+                            <div class="cent hidden-xs"> 
+                                <span class="s-left" >Иркутск, Грибоедова 108, оф.10</span>
+
+                                <span class="s-right">
+                                    <span class="tlf">    
+                                        +7 (3952) 758-198
+                                    </span>
+                                    <span class="eml">
+                                        <a href="mailto:it@evrysoft.ru">it@evrysoft.ru</a> 
+                                    </span>
+                                    <span class="but">
+                                        <a href="#popupform" class="btn1 btn-blue" id="popupbutton">Закажите звонок</a>
+                                    </span>    
+                                </span>     
+
+                            </div>
+                        </div>
+                </nav>  
+
+            </div>
+        </div>
+        <div class="container">
+            <header>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 hidden-sm logo">
+                        <a href="index.html"><img src="images/logo.png" alt="Лого" title="Лого"></a>
+                    </div>
+                    <div>
+                        <div class="col-lg-3 col-md-4 hidden-sm header-partner">
+                            <div><b>Официальный партнер 1С</b></div><div>&emsp; Франчайзинг</div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-6 col-md-5  ">
+                        <div class="header-e-mail hidden-sm"><a href="mailto:it@evrysoft.ru">it@evrysoft.ru</a>,&nbsp;Иркутск, Грибоедова 108, оф.10</div>
+                        <!--<div class="col-lg-3 col-md-3 hidden-sm col-lg-offset-1">-->
+                        <div class="col-lg-7 col-md-8 hidden-sm col-lg-offset-1">    
+                            <div class="header-phone">+7 (3952) 758-198 </div>
+                        </div>
+                        <!-- <div class="col-md-2 col-sm-4">-->
+                        <div class="hidden-lg col-sm-6 visible-sm logo">
+                            <a href="index.html"><img src="images/vertical.png" alt="Лого" title="Лого" width="212"></a>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <div class="visible-sm col-sm-12 header-partner">
+                                <div><b>Официальный партнер 1С</b></div><div>&emsp; Франчайзинг</div>
+                            </div>
+                            <div style="clear:both"></div>
+                            <div class="header-e-mail visible-sm"><a href="mailto:it@evrysoft.ru">it@evrysoft.ru</a>, Грибоедова 108, оф.10</div>
+                            <div class="header-phone visible-sm">+7 (3952) 758-198 </div>
+                            <div class="header-btn">
+                                <a href="#popupform" class="btn btn-blue" id="popupbutton">Закажите звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </header>
+        </div>
+
+        <div id="popupform">
+            <h2>Заказать обратный звонок</h2>
+            <div class="comment">Наш менеджер перезвонит Вам с 10.00 до 19.00</div>
+            <form method="post" id="form-feedback">
+                <input type="text" placeholder="Представьтесь, пожалуйста" name="name"  id="name" pattern="([A-Za-zА-Яа-яЁё\s]{1,50})" title="Допустимы буквы и пробел" class="input_text"/>
+                <div id="bthrow_error_name"></div>
+                <input type="text" placeholder="Телефон*" name="phone" id="phone" pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" class="input_text" required >
+                <div id="bthrow_error_phone"></div>
+                <input class="btn btn-blue" type="submit" value="Заказать звонок">
+                <div class="throw_error"></div>
+            </form>
+        </div>
+<!-- end top-menu -->
+
+        <div class="contant">
+            <div class="breadcrumb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li><a href="#">Главная</a></li>
+                                <li>/</li>
+                                <li>Компания</li>
+                                <li>/</li>
+                                <li>Хочу у Вас работать</li>
+                                <li>/</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="inner-menu big-margin-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li><a href="mission.html" class=" mission"><b></b>Миссия</a></li>
+                                <li><a href="vision.html" class="vision"><b></b>Видение</a></li>
+                                <li><a href="target.html" class="goal"><b></b>Цели</a></li>
+                                <li><a href="staff.html" class="staff"><b></b>Сотрудники</a></li>
+                                <li><a href="work.html" class="active work"><b></b>Хочу у вас работать</a></li>
+                                <li><a href="partner.html" class="partners"><b></b>Партнеры</a></li>
+                                <li><a href="recvizit.html" class="work"><b></b>Документы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 ">
+                            <h1 class="box-margin-h1">Хочу у вас работать</h1>
+                        </div>
+                        <div class="clearfix"></div>
+                        <!--<div class="industry-solutions">
+                            <div class="box-menu">
+                                <div class="col-xs-12">
+                                    <ul>
+                                        <li><a href="#">1С:Управление производственным предприятием</a></li>
+                                        <li>|</li>
+                                        <li><a href="#" class="active">1С:Управление холдингом</a></li>
+                                        <li>|</li>
+                                        <li><a href="#">1С:Розница</a></li>
+                                        <li>|</li>
+                                        <li><a href="#">1С:Документооборот</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>-->
+
+                        <!-- /////////////////////////////////////////////////////////////////////////////////     -->                 
+                        <div style="margin-top:25px;width:100%">
+                            <div class="col-xs-3 ">
+                               <br>
+                                <!-- <div class="h4t">Мы предлагаем:</div>-->
+                                <h2>Мы предлагаем:</h2>
+                                <div class="box-7" style="background:#F8F7F7;padding:5px 10px; ">
+                                <ul class="textul">
+                                    <li>График работы 5/2</li>
+                                    <li>8 часовой рабочий день с 10.00 до 19.00</li>
+                                    <li>Дружный молодой коллектив</li>
+                                    <li>Оформление согласно ТК РФ</li>
+                                    <li>Чай, кофе и конфетки :)</li>
+                                </div>
+                                </ul>
+                            </div>
+                            <!-- /////////////////////////////////////////////////////////////////////////////////     -->
+                            <div class="col-xs-9 accordion-top">
+                                <h2>Вакансии:</h2>
+                                <div class="accordion" id="accordion2">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading"><span class="icon-ac"></span><a class="accordion-toggle collapsed" href="#collapseOne" data-toggle="collapse" data-parent="#accordion2">
+                                           <h4 class="panel-title">Менеджер по продажам.</h4> 
+                                           <div class="str-ac" style="float: right; margin-top: -12px; margin-right: -20px;;"></div>
+                                        </a>
+                                    </div>
+                                    <!--in-->
+                                    <div style="height: auto;" class="accordion-body  collapse" id="collapseOne">
+                                        <div class="accordion-inner">
+                                             <div class="">
+                                                <!-- <div class="h4t">  Менеджер по продажам.</div>   --> 
+                                               <div class="h4t">В обязанности входит:</div>
+                                               <ul class="textul">
+                                                   <li>В обязанности входит:</li>
+                                                   <li>Предложение дополнительных услуг программистов 1С текущим и новым клиентам.</li> 
+                                                   <li>Заключение договоров на доработку конфигураций 1С. </li>
+                                                   <li>Предложение абонентской поддержки.</li>
+                                                   <li>Основные задачи:</li>
+                                                   <li>Активный поиск новых клиентов, работа с имеющейся клиентской базой</li>
+                                                   <li>Выявление потребностей, консультирование по спектру программного обеспечения и услуг</li>
+                                                   <li>Документальное оформление и сопровождение продажи</li>
+                                                   <li>Выполнение планов продаж, внутренняя отчетность</li>
+                                               </ul>
+                                               <div class="h4t">Требования:</div>
+                                               <ul class="textul">
+                                                   <li>Эта работа для тебя, если ты: </li>
+                                                   <li>Активный, общительный и целеустремленный человек; </li>
+                                                   <li>Обладаешь грамотной устной речью, имеешь навыки ведения переговоров;</li> 
+                                                   <li>Умеешь работать в команде;  </li>
+                                                   <li>Преимуществом будет знание программы 1С и опыт работы во франчайзи.</li> 
+                                               </ul>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading"><span class="icon-ac"></span><a class="accordion-toggle collapsed" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2">
+                                           <h4 class="panel-title">Менеджер по продажам.</h4> 
+                                           <div class="str-ac" style="float: right; margin-top: -12px; margin-right: -20px;;"></div>
+                                        </a></div>
+                                    <div style="height: 0px;" class="accordion-body collapse" id="collapseTwo"> 
+                                        <div class="accordion-inner">
+                                                                                       <div class="">
+                                             <!--  <div class="h4t">Менеджер по продажам.</div>  -->  
+                                               <div class="h4t">В обязанности входит:</div>
+                                               <ul class="textul">
+                                                   <li>В обязанности входит:</li>
+                                                   <li>Предложение дополнительных услуг программистов 1С текущим и новым клиентам.</li> 
+                                                   <li>Заключение договоров на доработку конфигураций 1С. </li>
+                                                   <li>Предложение абонентской поддержки.</li>
+                                                   <li>Основные задачи:</li>
+                                                   <li>Активный поиск новых клиентов, работа с имеющейся клиентской базой</li>
+                                                   <li>Выявление потребностей, консультирование по спектру программного обеспечения и услуг</li>
+                                                   <li>Документальное оформление и сопровождение продажи</li>
+                                                   <li>Выполнение планов продаж, внутренняя отчетность</li>
+                                               </ul>
+                                               <div class="h4t">Требования:</div>
+                                               <ul class="textul">
+                                                   <li>Эта работа для тебя, если ты: </li>
+                                                   <li>Активный, общительный и целеустремленный человек; </li>
+                                                   <li>Обладаешь грамотной устной речью, имеешь навыки ведения переговоров;</li> 
+                                                   <li>Умеешь работать в команде;  </li>
+                                                   <li>Преимуществом будет знание программы 1С и опыт работы во франчайзи.</li> 
+                                               </ul>
+                                           </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-group">
+                                    <div class="accordion-heading"><span class="icon-ac"></span><a class="accordion-toggle collapsed" href="#collapseThree" data-toggle="collapse" data-parent="#accordion2">
+                                           <h4 class="panel-title">Менеджер по продажам.</h4> 
+                                           <div class="str-ac" style="float: right; margin-top: -12px; margin-right: -20px;;"></div>
+                                        </a></div>
+                                    <div style="height: 0px;" class="accordion-body collapse" id="collapseThree">
+                                        <div class="accordion-inner">
+                                                                                         <div class="">
+                                              <!-- <div class="h4t">Менеджер по продажам.</div> -->   
+                                               <div class="h4t">В обязанности входит:</div>
+                                               <ul class="textul">
+                                                   <li>В обязанности входит:</li>
+                                                   <li>Предложение дополнительных услуг программистов 1С текущим и новым клиентам.</li> 
+                                                   <li>Заключение договоров на доработку конфигураций 1С. </li>
+                                                   <li>Предложение абонентской поддержки.</li>
+                                                   <li>Основные задачи:</li>
+                                                   <li>Активный поиск новых клиентов, работа с имеющейся клиентской базой</li>
+                                                   <li>Выявление потребностей, консультирование по спектру программного обеспечения и услуг</li>
+                                                   <li>Документальное оформление и сопровождение продажи</li>
+                                                   <li>Выполнение планов продаж, внутренняя отчетность</li>
+                                               </ul>
+                                               <div class="h4t">Требования:</div>
+                                               <ul class="textul">
+                                                   <li>Эта работа для тебя, если ты: </li>
+                                                   <li>Активный, общительный и целеустремленный человек; </li>
+                                                   <li>Обладаешь грамотной устной речью, имеешь навыки ведения переговоров;</li> 
+                                                   <li>Умеешь работать в команде;  </li>
+                                                   <li>Преимуществом будет знание программы 1С и опыт работы во франчайзи.</li> 
+                                               </ul>
+                                           </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>    
+
+                            <!-- /////////////////////////////////////////////////////////////////////////////////     -->
+
+                            <div class="col-lg-12  col-md-6 col-sm-6 col-xs-12 form-1">
+                                 <form id ="form2" enctype="multipart/form-data" action="javascript:void(0);"  method="post" onsubmit="ajax2()" >
+                                    <div class="form-group form-contr">
+                                        <label class="sr-only" for="InputName">Ваше имя</label>
+                                         <input type="text" name="name" class="form-control" id="InputName" placeholder="Ваше имя">
+                                    </div>
+                                    <div class="form-group form-contr">
+                                        <label class="sr-only" for="InputPhone">Номер телефона</label>
+                                       <input type="tel" name="phone" class="form-control" id="InputPhone" placeholder="Номер телефона"  >
+                                    </div>
+                                    <div class="form-group form-contr">
+                                        <label class="sr-only" for="InputEmail">Email</label>
+                                       <input type="text" name="email" class="form-control" id="InputEmail" placeholder="E-mail">
+                                    </div>
+                                    <div class="form-group form-contr">
+                                        <button type="submit" class="btn btn-blue ">Оставить заявку</button>
+                                    </div>
+
+                                    <div class="form-group form-contr form-cntr-end ">                                                                
+                                        <label class="sr-only" for="InputDlg">Должность на которую претендуете и пару слов о себе</label>
+                                        <textarea class="form-control tarea-end" name="text_a" rows="5" id="InputDlg" placeholder="Должность на которую претендуете и пару слов о себе"></textarea>
+
+                                    </div>
+                                     <div class="form-group form-contr customfile-container">
+                                        <input type="file" id="file" name="myfiles"  />
+                                    </div>
+                                      <input type="hidden" name ="book" value =" странице Хочу у вас работать">
+                                </form>
+                                <div id="results1"></div>  <div style="width: auto; height: auto; " class="overlay1"></div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end inner -->
+        </div>
+        <footer>
+             <div class="footer-menu"><!-- end footer-menu -->
+                <div class="container">
+                    <div class="row">
+                        <b class="line"></b>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">Продукты &nbsp; 1С</div>
+                            <ul>
+                                <li><a href="company-accounting.html">1С &nbsp;Бухгалтерия </a></li>
+                                <li><a href="trade-management.html">1С&nbsp;Торговля</a></li>
+                                <li><a href="universal-solutions.html">1С&nbsp;Зарплата</a></li>
+                                <li><a href="enterprise-management.html">1С&nbsp;Производство </a></li>
+                                <li><a href="industry-solutions.html">Отраслевые решения 1С</a></li>
+                                <li><a href="licen.html">Лицензии 1С</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">Услуги &nbsp; 1С</div>
+                            <ul>
+                                <li><a href="setup-modification.html">Настройка и доработка 1С</a></li>
+                                <li><a href="maintenance-support.html">Сопровождение и поддержка 1С </a></li>
+                                <li><a href="rent.html">Аренда 1С </a></li>
+                                <!--<li><a href="#">Сайт + 1С</a></li>-->
+                            </ul>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">Обучение</div>
+                            <ul>
+                                <li><a href="training-ut.html">Управление торговлей</a></li>
+                                <li><a href="training-bp.html">Бухгалтерия предприятия</a></li>
+                                <li><a href="training-k.html">Корпоративное</a></li>
+                                <li><a href="training-i.html">Индивидуальное</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12  col-md-3 ">
+                            <div class="name">CRM</div>
+                            <ul>
+                                <li><a href="amocrm.html">АmoCRM</a></li>
+                                <li><a href="bitrix24.html">Битрикс 24 </a></li>
+                                <li><a href="crm.html">1С: CRM </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end footer-menu -->
+            <div class="footer-copy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            © ООО «ЭвриСофт», 2014—2016<br>
+                            +7 (3952) 758-198, <a href="mailto:it@evrysoft.ru" class="email">it@evrysoft.ru</a>
+                        </div>
+                        <div class="col-xs-6 right">
+                            <!--Дизайн <a href="#">Шепитько Татьяна</a><br>
+                            Программирование <a href="#">Иванов Сергей</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end footer-copy -->
+        </footer>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script>
+            $(window).on("scroll", function () {
+
+                if ($(window).scrollTop() > 100)
+                    $('.polosa').addClass('p-show');
+                else
+                    $('.polosa').removeClass('p-show');
+
+            });
+        </script>
+        <script>
+            /******** input file  form***********/
+            (function ($) {
+
+                // Browser supports HTML5 multiple file?
+                var multipleSupport = typeof $('<input/>')[0].multiple !== 'undefined',
+                        isIE = /msie/i.test(navigator.userAgent);
+
+                $.fn.customFile = function () {
+
+                    return this.each(function () {
+
+                        var $file = $(this).addClass('customfile'), // the original file input
+                                $wrap = $('<div class="customfile-wrap">'),
+                                $input = $('<input type="text" class="customfile-filename" />'),
+                                // Button that will be used in non-IE browsers
+                                $button = $('<button type="button" class="customfile-upload">Добавить файл резюме</button>'),
+                                // Hack for IE
+                                $label = $('<label class="customfile-upload" for="' + $file[0].id + '">Добавить файл резюме</label>');
+
+                        // Hide by shifting to the left so we
+                        // can still trigger events
+                        $file.css({
+                            position: 'absolute',
+                            left: '-9999px'
+                        });
+
+                        $wrap.insertAfter($file)
+                                .append($file, $input, (isIE ? $label : $button));
+
+                        // Prevent focus
+                        $file.attr('tabIndex', -1);
+                        $button.attr('tabIndex', -1);
+
+                        $button.click(function () {
+                            $file.focus().click(); // Open dialog
+                        });
+
+                        $file.change(function () {
+
+                            var files = [], fileArr, filename;
+
+                            // If multiple is supported then extract
+                            // all filenames from the file array
+                            if (multipleSupport) {
+                                fileArr = $file[0].files;
+                                for (var i = 0, len = fileArr.length; i < len; i++) {
+                                    files.push(fileArr[i].name);
+                                }
+                                filename = files.join(', ');
+
+                                // If not supported then just take the value
+                                // and remove the path to just show the filename
+                            } else {
+                                filename = $file.val().split('\\').pop();
+                            }
+
+                            $input.val(filename) // Set the value
+                                    .attr('title', filename) // Show filename in title tootlip
+                                    .focus(); // Regain focus
+
+                        });
+
+                        $input.on({
+                            blur: function () {
+                                $file.trigger('blur');
+                            },
+                            keydown: function (e) {
+                                if (e.which === 13) { // Enter
+                                    if (!isIE) {
+                                        $file.trigger('click');
+                                    }
+                                } else if (e.which === 8 || e.which === 46) { // Backspace & Del
+                                    // On some browsers the value is read-only
+                                    // with this trick we remove the old input and add
+                                    // a clean clone with all the original events attached
+                                    $file.replaceWith($file = $file.clone(true));
+                                    $file.trigger('change');
+                                    $input.val('');
+                                } else if (e.which === 9) { // TAB
+                                    return;
+                                } else { // All other keys
+                                    return false;
+                                }
+                            }
+                        });
+
+                    });
+
+                };
+
+                // Old browser fallback
+                if (!multipleSupport) {
+                    $(document).on('change', 'input.customfile', function () {
+
+                        var $this = $(this),
+                                // Create a unique ID so we
+                                // can attach the label to the input
+                                uniqId = 'customfile_' + (new Date()).getTime(),
+                                $wrap = $this.parent(),
+                                // Filter empty input
+                                $inputs = $wrap.siblings().find('.customfile-filename')
+                                .filter(function () {
+                                    return !this.value
+                                }),
+                                $file = $('<input type="file" id="' + uniqId + '" name="' + $this.attr('name') + '"/>');
+
+                        // 1ms timeout so it runs after all other events
+                        // that modify the value have triggered
+                        setTimeout(function () {
+                            // Add a new input
+                            if ($this.val()) {
+                                // Check for empty fields to prevent
+                                // creating new inputs when changing files
+                                if (!$inputs.length) {
+                                    $wrap.after($file);
+                                    $file.customFile();
+                                }
+                                // Remove and reorganize inputs
+                            } else {
+                                $inputs.parent().remove();
+                                // Move the input so it's always last on the list
+                                $wrap.appendTo($wrap.parent());
+                                $wrap.find('input').focus();
+                            }
+                        }, 1);
+
+                    });
+                }
+
+            }(jQuery));
+
+            $('input[type=file]').customFile();
+        </script>
+    </body>
+</html>

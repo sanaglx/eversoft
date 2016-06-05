@@ -1,0 +1,186 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.04.2016, 8:25:05
+    Author     : ╨Р╨╗╨╡╨║╤Б╨░╨╜╨┤╤А
+*/
+.p-100 {
+  width: 100%;
+  height: 100px; }
+
+.p-60 {
+  width: 100%;
+  height: 60px; }
+
+.p-40 {
+  width: 100%;
+  height: 40px; }
+
+.h2-mm {
+  margin: 0 10px 30px;
+  font-family: "MullerBold", "arial";
+  font-size: 1.5em;
+  text-transform: uppercase; }
+
+.h2-mm1 {
+  margin: 0 10px 30px;
+  font-family: 'MullerBold';
+  font-size: 17.5px;
+  text-transform: uppercase;
+  line-height: 35px; }
+
+.n-and-d {
+  color: #fff;
+  /*text-transform: uppercase;*/ }
+  .n-and-d .h2-2 {
+    color: #fff;
+    background: #00afe5;
+    font-family: "MullerBold", "arial";
+    font-size: 2.6em;
+    padding: 8px 15px 0;
+    text-align: center;
+    line-height: 1.2em;
+    margin-bottom: 25px; }
+  .n-and-d .kvdrx {
+    color: #FFF;
+    font-size: 3em;
+    font-family: "MullerBold", "arial";
+    background: url(img/galka.png) no-repeat;
+    padding: 17px 60px 10px 9px;
+    position: relative;
+    top: 17px;
+    /* left: 20px; */
+    float: left;
+    height: 46px; }
+  .n-and-d .kvdrx1 {
+    line-height: 1.2;
+    display: table-cell;
+    vertical-align: middle; }
+  .n-and-d .box-5 {
+    text-align: left;
+    color: #444;
+    height: 0;
+    min-height: 85px;
+    position: relative;
+    font-size: 1.3em;
+    padding: 0px 20px 0 0;
+    display: table;
+    width: 79%;
+    margin-bottom: 10px;
+    letter-spacing: 0px; }
+
+.blog {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc; }
+  .blog .img-blog {
+    float: left;
+    display: block;
+    margin-right: 20px; }
+
+.blok-r-news {
+  background: #eee;
+  padding: 10px 20px 20px 20px; }
+
+.sertf {
+  text-align: center; }
+  .sertf img {
+    height: 310px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 8px 3px #CCC; }
+
+.r-bkgx {
+  background: url(img/znak.png) -12% no-repeat #00afe5;
+  margin-top: 15px; }
+
+.crm .txt {
+  color: #fff;
+  font-size: 1.5em;
+  padding: 34px 40px 40px 60px;
+  line-height: 1.2; }
+
+/**********************************/
+#results1 {
+  position: absolute;
+  z-index: 100000000;
+  top: -53px;
+  left: 0;
+  right: 0;
+  width: 457px;
+  margin: 0 auto; }
+
+.results51 {
+  top: -20px !important; }
+
+.xxd1, .xxd2, .xxd2, .xxdx {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 6px 11px;
+  background: rgba(132, 135, 136, 0.59) none repeat scroll 0% 0%;
+  border-radius: 19px;
+  margin: 5px;
+  cursor: pointer;
+  color: #FFFBFB; }
+
+#okno1, #okno2, #okno3, #okno4 {
+  display: block;
+  position: absolute;
+  padding: 58px 0px;
+  box-shadow: 0px 0px 17px #000;
+  border-radius: 4px;
+  color: #060606;
+  font-size: 1.2em;
+  width: 457px;
+  /* background: rgba(0, 175, 229, 0.9);*/
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center; }
+
+#overlay {
+  z-index: 3;
+  position: fixed;
+  background-color: #000;
+  opacity: 0.7;
+  -moz-opacity: 0.7;
+  filter: alpha(opacity=70);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+  z-index: 1000; }
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background: url("img/fancybox_overlay.png");
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+.customfile-container {
+  margin-top: 20px; }
+  .customfile-container .customfile-filename {
+    padding: 7px;
+    width: 281px; }
+  .customfile-container .customfile-upload {
+    padding: 9px;
+    width: 199px;
+    background: #ACACAC;
+    color: #fff;
+    border-color: #C8C7C7;
+    font-size: 1.1em;
+    float: right;
+    border: 0; }
+  .customfile-container .customfile-upload:hover {
+    background: #898989; }
+
+/*# sourceMappingURL=main.css.map */
