@@ -12,3 +12,7 @@ psd/*
 /evrysoft/*.rtf.new
 /evrysoft/*.rtf
 /evrysoft/*.psd
+/nbproject/*
+/nbproject
+/*gitignore
+
